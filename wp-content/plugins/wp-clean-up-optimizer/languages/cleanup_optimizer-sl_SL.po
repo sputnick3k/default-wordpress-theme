@@ -1,0 +1,1450 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: WP Clean Up OpCtimizer\n"
+"POT-Creation-Date: 2015-02-04 17:55+0530\n"
+"PO-Revision-Date: \n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: sl\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.6.6\n"
+"X-Poedit-KeywordsList: __;_e\n"
+"X-Poedit-Basepath: C:\\xampp\\htdocs\\WPTesting\\wp-content\\plugins\\wp-"
+"clean-up-optimizer\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: lib/header.php:37
+msgid "Get Started"
+msgstr "Začetek"
+
+#: lib/header.php:40
+msgid "Watch Clean Up Video!"
+msgstr "Oglejte si video predstavitev!"
+
+#: lib/header.php:44
+msgid "read documentation here"
+msgstr "preberite dokumentacijo"
+
+#: lib/header.php:49
+msgid "Go Premium"
+msgstr "Go Premium"
+
+#: lib/header.php:53
+msgid "Features"
+msgstr "Značilnosti"
+
+#: lib/header.php:58
+msgid "Online Demos"
+msgstr "Spletne predstavitve"
+
+#: lib/header.php:63
+#, fuzzy
+msgid "Premium Pricing Plan"
+msgstr "Premium cenovni načrti"
+
+#: lib/header.php:70
+msgid "Knowledge Base"
+msgstr "Baza znanja"
+
+#: lib/header.php:75
+msgid "Support Forum"
+msgstr "Podporni forum"
+
+#: lib/header.php:80
+msgid "FAQ's"
+msgstr "Pogosta vprašanja"
+
+#: lib/header.php:85
+#, fuzzy
+msgid "Detailed Features"
+msgstr "Značilnosti"
+
+#: lib/header.php:91
+msgid "More Actions"
+msgstr "Več dejanj"
+
+#: lib/header.php:95
+msgid "Plugin Customization"
+msgstr "Prilagoditve vtičnika"
+
+#: lib/header.php:100 lib/header.php:158 lib/menus.php:19
+#: lib/top-bar-menu.php:62
+msgid "Recommendations"
+msgstr "Priporočeno"
+
+#: lib/header.php:105 lib/header.php:161 lib/menus.php:20
+#: lib/top-bar-menu.php:68
+msgid "Our Other Services"
+msgstr "Druge storitve"
+
+#: lib/header.php:143 lib/menus.php:12 lib/top-bar-menu.php:20
+msgid "Dashboard"
+msgstr "Pregledna plošča"
+
+#: lib/header.php:146 lib/menus.php:14 lib/top-bar-menu.php:32
+#: views/login-logs.php:38
+msgid "Login Logs"
+msgstr "Dnevnik prijav"
+
+#: lib/header.php:149 lib/menus.php:15 lib/top-bar-menu.php:38
+#: views/cron-job.php:67
+msgid "Cron Jobs"
+msgstr "Časovna opravila"
+
+#: lib/header.php:152 lib/menus.php:16 lib/top-bar-menu.php:44
+#: views/general-settings.php:42
+msgid "General Settings"
+msgstr "Splošne nastavitve"
+
+#: lib/header.php:155 lib/menus.php:18 lib/top-bar-menu.php:56
+msgid "Premium Editions"
+msgstr "Premium izdaje"
+
+#: lib/install-script.php:155
+msgid "Your IP has been blocked!"
+msgstr "Vaš IP naslov je blokiran!"
+
+#: lib/install-script.php:156
+msgid "Maximum Login attempts left [maxAttempts]"
+msgstr "Preostalo število dovoljenih poskusov prijave je [maxAttempts]"
+
+#: lib/install-script.php:157
+msgid ""
+"You have Exceeded Maximum Login Attempts.\n"
+" So, your IP has been blocked for today. \n"
+" Kindly, try again after 24 Hours."
+msgstr ""
+"Prekoračili ste največje dovoljeno število poskusov prijave. Vaš IP naslov "
+"je za danes blokiran. Prosimo, poskusite ponovno čez 24 ur."
+
+#: lib/menus.php:13 lib/top-bar-menu.php:26
+#: views/automatic-plugin-update.php:35 views/automatic-plugin-update.php:40
+#, fuzzy
+msgid "Plugin Updates"
+msgstr "Vtičniki"
+
+#: lib/menus.php:17 lib/top-bar-menu.php:50
+msgid "System Status"
+msgstr "Status sistema"
+
+#: views/automatic-plugin-update.php:44 views/dashboard.php:248
+#: views/dashboard.php:258 views/general-settings.php:104
+#: views/general-settings.php:232
+msgid "Enable"
+msgstr "Omogoči"
+
+#: views/automatic-plugin-update.php:48 views/dashboard.php:249
+#: views/dashboard.php:259 views/general-settings.php:105
+#: views/general-settings.php:233
+msgid "Disable"
+msgstr "Onemogoči"
+
+#: views/cron-job.php:74
+msgid "Custom"
+msgstr "Dogodki po meri"
+
+#: views/cron-job.php:75
+msgid "Core"
+msgstr "Jedrni dogodki"
+
+#: views/cron-job.php:81
+msgid "Custom Events"
+msgstr "Dogodki po meri"
+
+#: views/cron-job.php:83 views/dashboard.php:240 views/dashboard.php:599
+#: views/dashboard.php:657 views/dashboard.php:658 views/dashboard.php:659
+#: views/dashboard.php:893 views/general-settings.php:59
+#: views/general-settings.php:95 views/general-settings.php:193
+#, fuzzy
+msgid " (Available in Premium Editions)"
+msgstr "Premium izdaje"
+
+#: views/cron-job.php:92 views/dashboard.php:285 views/dashboard.php:609
+#: views/dashboard.php:655
+msgid "Bulk Action"
+msgstr "Množično dejanje"
+
+#: views/cron-job.php:93 views/cron-job.php:138 views/dashboard.php:657
+#: views/dashboard.php:904 views/dashboard.php:1184 views/dashboard.php:1254
+msgid "Delete"
+msgstr "Izbriši"
+
+#: views/cron-job.php:95 views/dashboard.php:288 views/dashboard.php:661
+#: views/dashboard.php:765 views/dashboard.php:844
+msgid "Apply"
+msgstr "Uporabi"
+
+#: views/cron-job.php:103 views/cron-job.php:245
+msgid "Name of the Hook"
+msgstr "Naziv dogodka"
+
+#: views/cron-job.php:104
+msgid "List of Custom scheduled events."
+msgstr "Seznam razporejenih dogodkov po meri"
+
+#: views/cron-job.php:107 views/cron-job.php:249
+msgid "Interval Hook"
+msgstr "Interval izvajanja"
+
+#: views/cron-job.php:108 views/cron-job.php:250
+msgid "It specifies the Interval of a Scheduler. "
+msgstr "Določa interval izvajanja opravila"
+
+#: views/cron-job.php:111 views/cron-job.php:253
+msgid "Args"
+msgstr "Argumenti"
+
+#: views/cron-job.php:114 views/cron-job.php:256 views/dashboard.php:1206
+msgid "Next Execution"
+msgstr "Naslednje izvajanje"
+
+#: views/cron-job.php:115 views/cron-job.php:257
+msgid ""
+"It allows you to view the Date & Time for next execution of a Scheduler."
+msgstr "Omogoča ogled datuma in časa naslednjega izvajanja opravila."
+
+#: views/cron-job.php:234
+msgid "Core Events"
+msgstr "Jedrni dogodki"
+
+#: views/cron-job.php:246
+msgid ""
+"List of Core scheduled events. Which are Default schedulers created by "
+"WordPress."
+msgstr ""
+"Seznam opravil jedrnih dogodkov. To so privzeta opravila, ki jih je ustvaril "
+"WordPress."
+
+#: views/cron-job.php:395 views/cron-job.php:412 views/dashboard.php:1390
+#: views/dashboard.php:1532
+msgid "Show entries"
+msgstr "Prikaz vnosov"
+
+#: views/cron-job.php:425 views/cron-job.php:432 views/dashboard.php:1327
+#: views/dashboard.php:1403 views/dashboard.php:1413 views/dashboard.php:1496
+#: views/dashboard.php:1545 views/general-settings.php:265
+#: views/general-settings.php:271 views/general-settings.php:277
+#: views/general-settings.php:283 views/general-settings.php:289
+#: views/login-logs.php:194
+msgid "Error!"
+msgstr "Napaka!"
+
+#: views/cron-job.php:425 views/cron-job.php:432 views/dashboard.php:1403
+#: views/dashboard.php:1413 views/dashboard.php:1545
+#: views/general-settings.php:265 views/general-settings.php:271
+#: views/general-settings.php:277 views/general-settings.php:283
+#: views/general-settings.php:289 views/login-logs.php:194
+msgid "This Feature is Available in Premium Editions!"
+msgstr "Ta funkcija je na voljo v Premium Edition!"
+
+#: views/dashboard.php:182 views/general-settings.php:33
+#: views/login-logs.php:30
+msgid "Success!"
+msgstr "Uspešno izvedeno!"
+
+#: views/dashboard.php:191
+msgid "WP Clean Up Optimizer"
+msgstr "WP Clean Up Optimizer"
+
+#: views/dashboard.php:197
+msgid "Database Information"
+msgstr "Podatkovna baza"
+
+#: views/dashboard.php:201
+msgid "Database Host "
+msgstr "Gostitelj podatkovne baze "
+
+#: views/dashboard.php:207
+msgid "Database Name "
+msgstr "Naziv podatkovne baze "
+
+#: views/dashboard.php:213
+msgid "Database User "
+msgstr "Uporabniško ime podatkovne baze "
+
+#: views/dashboard.php:219
+msgid "Database Type "
+msgstr "Tip podatkovne baze "
+
+#: views/dashboard.php:227
+msgid "Database Version"
+msgstr "Verzija podatkovne baze "
+
+#: views/dashboard.php:240
+msgid "Manage Trackbacks / Comments"
+msgstr "Urejanje trackbackov / komentarjev"
+
+#: views/dashboard.php:244
+msgid "Trackbacks"
+msgstr "Trackbacki"
+
+#: views/dashboard.php:245 views/dashboard.php:431
+msgid ""
+"Trackbacks are a way to notify legacy blog systems that you have linked to "
+"them. If you link to a WordPress blog they will be notified automatically "
+"using pingbacks, no other action necessary."
+msgstr ""
+"Trackbacki so način obveščanja drugih blog sistemov, da ste z njimi "
+"povezani. Če se povežete z drugim WordPress blogom, bo le-ta samodejno "
+"obveščen z uporabo pingbackov."
+
+#: views/dashboard.php:254
+msgid "Comments"
+msgstr "Komentarji"
+
+#: views/dashboard.php:255
+msgid ""
+"Manage comments on any Post or Page. It can be used to disable comments on "
+"the entire Blog."
+msgstr ""
+"Upravljajte s komentarji vseh prispevkov in strani. Onemogočite lahko "
+"komentarje na celotnem blogu."
+
+#: views/dashboard.php:269 views/dashboard.php:278
+msgid "Data Optimizer"
+msgstr "podatkov Optimizer"
+
+#: views/dashboard.php:270 views/dashboard.php:478
+msgid "Data Optimizer Scheduler"
+msgstr "podatkov Optimizer Scheduler"
+
+#: views/dashboard.php:271 views/dashboard.php:643
+msgid "DB Optimizer"
+msgstr "DB Optimizer"
+
+#: views/dashboard.php:272 views/dashboard.php:881
+msgid "DB Optimizer Scheduler"
+msgstr "DB Orodje za optimiziranje razporejevalnik"
+
+#: views/dashboard.php:286 views/dashboard.php:311 views/dashboard.php:325
+#: views/dashboard.php:339 views/dashboard.php:353 views/dashboard.php:367
+#: views/dashboard.php:381 views/dashboard.php:395 views/dashboard.php:409
+#: views/dashboard.php:423 views/dashboard.php:437 views/dashboard.php:451
+#: views/dashboard.php:465 views/dashboard.php:610 views/dashboard.php:656
+#: views/dashboard.php:761 views/dashboard.php:840 views/dashboard.php:903
+#: views/dashboard.php:1181
+msgid "Empty"
+msgstr "Izprazni"
+
+#: views/dashboard.php:294 views/dashboard.php:492
+msgid "Type of Data"
+msgstr "Tip podatkov"
+
+#: views/dashboard.php:295
+msgid "Count"
+msgstr "Število"
+
+#: views/dashboard.php:296 views/dashboard.php:671 views/login-logs.php:125
+msgid "Action"
+msgstr "Dejanje"
+
+#: views/dashboard.php:305 views/dashboard.php:501
+msgid ""
+"Auto Draft are the Page / Post saved as draft automatically in WordPress "
+"Database."
+msgstr ""
+"Samodejni osnutek je stran / prispevek, ki je samodejno shranjen kot osnutek "
+"v podatkovni bazi WordPress."
+
+#: views/dashboard.php:305 views/dashboard.php:501
+msgid "Auto Draft"
+msgstr "Samodejni osnutek"
+
+#: views/dashboard.php:319 views/dashboard.php:509
+msgid ""
+"Transient Feed in WordPress are use Database entries to cache a certain "
+"entries."
+msgstr ""
+"Prehodni Krma v WordPress so uporaba vnosi Baze podatkov do predpomnilnika "
+"nekatere navedbe."
+
+#: views/dashboard.php:319 views/dashboard.php:509
+#, fuzzy
+msgid "Dashboard Transient Feed"
+msgstr "Prehodni vir pregledne plošče"
+
+#: views/dashboard.php:333 views/dashboard.php:517
+msgid "New Post / Page created as Draft in WordPress."
+msgstr "New Post / Stran je bila ustvarjena kot osnutek v WordPress."
+
+#: views/dashboard.php:333 views/dashboard.php:517
+msgid "Draft"
+msgstr "Osnutek"
+
+#: views/dashboard.php:347 views/dashboard.php:525
+msgid ""
+"Orphan Comments Meta holds the miscellaneous bits of extra information of "
+"comment."
+msgstr ""
+"Sirote Komentarji Meta ima tudi razni bitov dodatnih informacij komentarja."
+
+#: views/dashboard.php:347 views/dashboard.php:525
+msgid "Orphan Comments Meta"
+msgstr "Osiroteli meta komentarji"
+
+#: views/dashboard.php:361 views/dashboard.php:533
+msgid "Orphan Posts Meta holds the junk or obsolete data."
+msgstr "Orphan Prispevkov Meta ima junk ali zastareli podatkov."
+
+#: views/dashboard.php:361 views/dashboard.php:533
+msgid "Orphan Posts Meta"
+msgstr "Osiroteli meta prispevki"
+
+#: views/dashboard.php:375 views/dashboard.php:541
+msgid "Orphan Relationships holds the junk or obsolete Category and Tag."
+msgstr "Sirote Relationships ima junk ali zastarel kategorijo in oznako."
+
+#: views/dashboard.php:375 views/dashboard.php:541
+msgid "Orphan Relationships"
+msgstr "Osirotele povezave"
+
+#: views/dashboard.php:389 views/dashboard.php:549
+msgid ""
+"The WordPress revisions system stores a record of each saved draft or "
+"published update.Revisions are stored in the posts table."
+msgstr ""
+"Sistem WordPress redakcije shranjuje evidenco vsake osnutku shranili ali "
+"objavljeni update.Revisions so shranjeni v tabeli objav."
+
+#: views/dashboard.php:389 views/dashboard.php:549
+msgid "Revision"
+msgstr "Različica"
+
+#: views/dashboard.php:403 views/dashboard.php:557
+msgid ""
+"A Pingback is a type of comment that's created when you link to another blog "
+"post where pingbacks are enabled."
+msgstr ""
+"Pingback je vrsta pripomb, ki se ustvari, ko se povežete z drugo blog post, "
+"kjer so omogočene pingbacks."
+
+#: views/dashboard.php:403 views/dashboard.php:557
+msgid "Remove Pingbacks"
+msgstr "Odstrani pingbacke"
+
+#: views/dashboard.php:417 views/dashboard.php:565
+msgid ""
+"Transient Options are like a basic cache system used by wordpress. Clearing "
+"these options before a backup will help to save space in your backup files."
+msgstr ""
+"Prehodne Možnosti so kot osnovni sistem predpomnilnika, ki ga uporablja "
+"WordPress. Obračun te možnosti, preden backup bo pomagal, da prihranite "
+"prostor v vaših varnostnih kopij."
+
+#: views/dashboard.php:417 views/dashboard.php:565
+#, fuzzy
+msgid "Remove Transient Options"
+msgstr "Odstrani prehodne možnosti"
+
+#: views/dashboard.php:431 views/dashboard.php:573
+msgid "Remove Trackbacks"
+msgstr "Odstrani trackbacke"
+
+#: views/dashboard.php:445 views/dashboard.php:581
+msgid "Spam Comments are the unwanted comments in the WordPress database."
+msgstr "Spam Komentarji so nezaželene komentarji v bazi WordPress."
+
+#: views/dashboard.php:445 views/dashboard.php:581
+msgid "Spam Comments"
+msgstr "Neželeni komentarji"
+
+#: views/dashboard.php:459 views/dashboard.php:589
+msgid ""
+"Trash Comments are the comments which are stored in the WordPress Trash."
+msgstr "Trash Komentarji so pripombe, ki so shranjeni v WordPress smetnjaku."
+
+#: views/dashboard.php:459 views/dashboard.php:589
+msgid "Trash Comments"
+msgstr "Brisani komentarji"
+
+#: views/dashboard.php:486
+msgid "Choose Type of Data"
+msgstr "Izberite tip podatkov"
+
+#: views/dashboard.php:573
+#, fuzzy
+msgid ""
+"Trackbacks are a way to notify legacy blog systems that you've linked to "
+"them. If you link to a WordPress blog they'll be notified automatically "
+"using pingbacks, no other action necessary."
+msgstr ""
+"Trackbacki so način obveščanja drugih blog sistemov, da ste z njimi "
+"povezani. Če se povežete z drugim WordPress blogom, bo le-ta samodejno "
+"obveščen z uporabo pingbackov."
+
+#: views/dashboard.php:599 views/dashboard.php:893
+msgid "Configure Scheduler"
+msgstr "Določite opravilo"
+
+#: views/dashboard.php:604 views/dashboard.php:898
+msgid "Action "
+msgstr "Dejanje "
+
+#: views/dashboard.php:605 views/dashboard.php:899
+msgid "Allows you to select the type of Action."
+msgstr "Omogoča izbiro vrste dejanja"
+
+#: views/dashboard.php:616 views/dashboard.php:912
+msgid "Duration "
+msgstr "Razpored"
+
+#: views/dashboard.php:617 views/dashboard.php:913
+msgid ""
+"Configuration the scheduler Daily, Weekly, Biweekly, Monthly, Quarterly, "
+"Half-Yearly, Annually from the DropDown."
+msgstr ""
+"Določite razpored dnevno, tedensko, dvotedensko, mesečno, četrtletno, "
+"polletno, letno iz spustnega seznama."
+
+#: views/dashboard.php:621 views/dashboard.php:917
+msgid "Daily"
+msgstr "Dnevno"
+
+#: views/dashboard.php:622 views/dashboard.php:918 views/dashboard.php:1225
+msgid "Weekly"
+msgstr "Tedensko"
+
+#: views/dashboard.php:623 views/dashboard.php:919 views/dashboard.php:1229
+msgid "Biweekly"
+msgstr "Dvotedensko"
+
+#: views/dashboard.php:624 views/dashboard.php:920 views/dashboard.php:1233
+msgid "Monthly"
+msgstr "Mesečno"
+
+#: views/dashboard.php:625 views/dashboard.php:921 views/dashboard.php:1237
+msgid "Quarterly"
+msgstr "Četrtletno"
+
+#: views/dashboard.php:626 views/dashboard.php:922 views/dashboard.php:1241
+msgid "Half-Yearly"
+msgstr "Polletno"
+
+#: views/dashboard.php:627 views/dashboard.php:923 views/dashboard.php:1245
+msgid "Annually"
+msgstr "Letno"
+
+#: views/dashboard.php:629 views/dashboard.php:925
+msgid "Save Scheduler"
+msgstr "Shrani opravilo"
+
+#: views/dashboard.php:647 views/dashboard.php:885
+msgid ""
+"Note : Table Names highlighted with red color and an asterisk (*) are "
+"wordpress inbuilt Tables. <br/> They are disabled by us  so not to perform "
+"delete and clean action because they can destroy your Wordpress "
+"unintentionally."
+msgstr ""
+"Opomba: Tabele, katerih imena so označena z rdečo barvo in zvezdico (*) so "
+"vgrajene WordPress tabele. <br/> Onemogočeno je njihovo brisanje in "
+"čiščenje, da ne bi prišlo do težav z vašim WordPressom."
+
+#: views/dashboard.php:658 views/dashboard.php:905 views/dashboard.php:1187
+msgid "Optimize"
+msgstr "Optimiraj"
+
+#: views/dashboard.php:659 views/dashboard.php:906 views/dashboard.php:1190
+msgid "Repair"
+msgstr "Popravi"
+
+#: views/dashboard.php:667 views/dashboard.php:938
+msgid "Table"
+msgstr "Tabela"
+
+#: views/dashboard.php:668 views/dashboard.php:941
+msgid "Rows"
+msgstr "Vrstice"
+
+#: views/dashboard.php:669 views/dashboard.php:939
+msgid "Type"
+msgstr "Tip"
+
+#: views/dashboard.php:670 views/dashboard.php:942
+msgid "Size"
+msgstr "Velikost"
+
+#: views/dashboard.php:857 views/dashboard.php:1124
+msgid "Total"
+msgstr "Skupaj"
+
+#: views/dashboard.php:932
+msgid "Choose Tables"
+msgstr "Izberi tabele"
+
+#: views/dashboard.php:940
+msgid "Overhead"
+msgstr "Overhead"
+
+#: views/dashboard.php:1141
+msgid "Manage Database Optimizer Schedules"
+msgstr "Upravljanje Orodje za optimiziranje Database urnikov"
+
+#: views/dashboard.php:1148
+msgid "Tables"
+msgstr "Tabele"
+
+#: views/dashboard.php:1149
+msgid "Overview"
+msgstr "Pregled"
+
+#: views/dashboard.php:1176
+msgid "Action Type"
+msgstr "Vrsta dejanja"
+
+#: views/dashboard.php:1198
+msgid "Start Date"
+msgstr "Začetni datum"
+
+#: views/dashboard.php:1215
+msgid "Schedule Type"
+msgstr "Razpored izvajanja"
+
+#: views/dashboard.php:1302 views/dashboard.php:1335
+msgid "Are you sure, you want to Clean?"
+msgstr "Ste prepričani, da želite izvesti čiščenje?"
+
+#: views/dashboard.php:1319 views/dashboard.php:1352
+msgid "Successfully Cleaned!"
+msgstr "Čiščenje uspešno izvedeno!"
+
+#: views/dashboard.php:1327
+msgid "Please choose Action and Type of Data to Proceed!"
+msgstr "Izberite dejanje in tip podatkov za nadaljevanje!"
+
+#: views/dashboard.php:1425 views/dashboard.php:1460
+msgid "Cleaned Successfully!"
+msgstr "Čiščenje uspešno izvedeno!"
+
+#: views/dashboard.php:1429 views/dashboard.php:1471
+msgid "Are you sure, you want to Perform this Action?"
+msgstr "Ste prepričani, da želite izvesti to dejanje?"
+
+#: views/dashboard.php:1496
+msgid "Please choose Action or Table to proceed!."
+msgstr "Izberite dejanje ali tabelo za nadaljevanje!"
+
+#: views/general-settings.php:34
+msgid "General Settings has been updated  "
+msgstr "Splošne nastavitve so posodobljene"
+
+#: views/general-settings.php:45
+msgid "Save Changes"
+msgstr "Shrani spremembe"
+
+#: views/general-settings.php:51 views/general-settings.php:59
+msgid "Message Settings"
+msgstr "Nastavitve obvestil"
+
+#: views/general-settings.php:52 views/general-settings.php:95
+msgid "Security Settings"
+msgstr "Nastavitve varnosti"
+
+#: views/general-settings.php:53 views/general-settings.php:193
+msgid "Plugin Settings"
+msgstr "Nastavitve vtičnika"
+
+#: views/general-settings.php:64
+msgid "IP Block Message"
+msgstr "Obvestilo ob blokiranju IP naslova"
+
+#: views/general-settings.php:65
+msgid ""
+"It shows the Error Message for the users whose IP is blocked from the "
+"Security Settings or Login Logs if the users seems to be unauthorized."
+msgstr ""
+"Omogoča nastavitev obvestila o napaki za zavrnjene uporabnike, katerih IP "
+"naslov je blokiran iz nastavitev varnosti ali dnevnika prijav."
+
+#: views/general-settings.php:68
+msgid "Enter the error message here when the IP is Blocked."
+msgstr "Vnesite obvestilo o napaki, ki se prikaže ob blokiranju IP naslova."
+
+#: views/general-settings.php:73 views/general-settings.php:111
+msgid "Max Login Attempts"
+msgstr "Največje dovoljeno število poskusov prijave"
+
+#: views/general-settings.php:74
+msgid ""
+"It allows you to set dynamic Error Message for the users to show the number "
+"of login attempts left incase username or password is left empty or filled "
+"invalid."
+msgstr ""
+"Omogoča vam nastavitev obvestila o napaki, ki uporabniku prikaže število "
+"preostalih dovoljenih poskusov prijave, v primeru napačnega vnosa "
+"uporabniškega imena ali gesla."
+
+#: views/general-settings.php:77
+msgid "Enter the error message here for Maxium login Attempts."
+msgstr "Vnesite obvestilo o napaki, ki se prikaže ob neuspešni prijavi."
+
+#: views/general-settings.php:82
+msgid "Max Login Exceeded Error"
+msgstr "Napaka ob prekoračitvi največjega dovoljenega števila poskusov prijave"
+
+#: views/general-settings.php:83
+msgid ""
+"User can set dynamic Error Message for the users whose IP gets blocked after "
+"the Maximum Login Attempts Exceeds."
+msgstr ""
+"Uporabnik lahko nastavi lastno obvestilo o napaki za uporabnike, katerih IP "
+"naslov je blokiran po prekoračitvi največjega dovoljenega števila poskusov "
+"prijave."
+
+#: views/general-settings.php:86
+msgid "Enter the error message here for Maxium login Exceeded."
+msgstr ""
+"Vnesite obvestilo o napake, ki se prikaže ob prekoračitvi največjega "
+"dovoljenega števila poskusov prijave."
+
+#: views/general-settings.php:100
+msgid "Auto IP Block"
+msgstr "Samodejno blokiranje IP naslovov"
+
+#: views/general-settings.php:101
+msgid ""
+"Auto IP Block allows to block the IP Address when the user exceeds the "
+"Maximum Login Attempts."
+msgstr ""
+"Samodejno blokiranje IP naslovov omogoča blokiranje IP naslova, ko uporabnik "
+"prekorači največje dovoljeno število poskusov prijave."
+
+#: views/general-settings.php:112
+msgid "User can set Maximum Login Attempts for their Website."
+msgstr ""
+"Uporabnik lahko nastavi največje dovoljeno število poskusov prijave za svojo "
+"spletno stran."
+
+#: views/general-settings.php:121 views/login-logs.php:158
+msgid "Block IP Address"
+msgstr "Blokiraj IP naslov"
+
+#: views/general-settings.php:122
+msgid ""
+"It allows you to block IP Address that are considered undesirable or hostile."
+msgstr ""
+"Omogoča blokiranje IP naslovov, za katere menite, da so nezaželeni ali "
+"sovražni."
+
+#: views/general-settings.php:126
+msgid "Add Block IP Address"
+msgstr "Dodaj na seznam blokiranih"
+
+#: views/general-settings.php:131
+msgid "Blocked IP Addresses"
+msgstr "Blokirani IP naslovi"
+
+#: views/general-settings.php:132
+msgid "It show the list of all IP Addresses that are blocked by the User."
+msgstr "Prikazuje seznam vseh IP naslovov, ki jih je uporabnik blokiral"
+
+#: views/general-settings.php:145
+msgid "Delete Block IP Addresses"
+msgstr "Zbriši s seznama blokiranih"
+
+#: views/general-settings.php:150
+msgid "Block Start IP Range"
+msgstr "Blokiraj IP naslovni prostor od"
+
+#: views/general-settings.php:151
+msgid "It is the Starting range of the IP Address to be blocked."
+msgstr "To je prvi IP naslov v naslovnem prostoru, ki ga želite blokirati."
+
+#: views/general-settings.php:159
+msgid "Block End IP Range"
+msgstr "Blokiraj IP naslovni prostor do"
+
+#: views/general-settings.php:160
+msgid "It is the Ending range of the IP Address to be blocked."
+msgstr "To je zadnji IP naslov v naslovnem prostoru, ki ga želite blokirati."
+
+#: views/general-settings.php:164
+msgid "Add Block IP Range"
+msgstr "Dodaj na seznam blokiranih"
+
+#: views/general-settings.php:169
+msgid "Blocked IP Range"
+msgstr "Blokirani IP naslovni prostori"
+
+#: views/general-settings.php:170
+msgid ""
+"Blocked IP Range show the list of all the IP Addresses range that are "
+"blocked by the user."
+msgstr ""
+"Prikazuje seznam vseh IP naslovnih prostorov, ki jih je uporabnik blokiral."
+
+#: views/general-settings.php:184
+msgid "Delete Block IP Range"
+msgstr "Zbriši s seznama blokiranih"
+
+#: views/general-settings.php:200
+msgid "Show Clean Up Plugin Menu"
+msgstr "Prikaži meni vtičnika Clean Up"
+
+#: views/general-settings.php:201
+msgid ""
+"It allows you to control the capabilities of WP Clean Up Optimizer among "
+"different roles of WordPress users."
+msgstr ""
+"Omogoča nadzor nad zmogljivostjo WP Clean Up Optimizerja med različnimi "
+"vlogami WordPress uporabnikov."
+
+#: views/general-settings.php:206
+msgid "Administrator"
+msgstr "Skrbnik"
+
+#: views/general-settings.php:210
+msgid "Editor"
+msgstr "Urednik"
+
+#: views/general-settings.php:214
+msgid "Author"
+msgstr "Avtor"
+
+#: views/general-settings.php:218
+msgid "Contributor"
+msgstr "Sodelavec"
+
+#: views/general-settings.php:222
+msgid "Subscriber"
+msgstr "Naročnik"
+
+#: views/general-settings.php:228
+msgid "Clean Up Menu Top Bar"
+msgstr "Clean Up v zgornji menijski vrstici"
+
+#: views/general-settings.php:229
+msgid ""
+"It allows you to enable or disable WP Clean Up Optimizer for top menu bar "
+"among different roles of WordPress users."
+msgstr ""
+"WP Clean Up Optimizer lahko omogočite ali onemogočite na zgornji menijski "
+"vrstici glede na različne vloge WordPress uporabnikov."
+
+#: views/login-logs.php:31
+msgid "Action has been updated"
+msgstr "Dejanje je posodobljeno"
+
+#: views/login-logs.php:46
+msgid "Recent Login Details on World Map"
+msgstr "Podrobnosti zadnjih prijav na svetovnem zemljevidu"
+
+#: views/login-logs.php:98
+msgid "Recent Login Details"
+msgstr "Podrobnosti zadnjih prijav"
+
+#: views/login-logs.php:105
+msgid "Username"
+msgstr "Uporabniško ime"
+
+#: views/login-logs.php:106
+msgid "Allows you to view the username of recent logged in users."
+msgstr "Omogoča ogled uporabniških imen nazadnje prijavljenih uporabnikov."
+
+#: views/login-logs.php:109
+msgid "IP Address"
+msgstr "IP naslov"
+
+#: views/login-logs.php:110
+msgid "Allows you to view the IP Address of the logged in users."
+msgstr "Omogoča ogled IP naslovov prijavljenih uporabnikov."
+
+#: views/login-logs.php:113
+msgid "Location"
+msgstr "Lokacija"
+
+#: views/login-logs.php:114
+msgid "Allows you to view the current location of the logged in users."
+msgstr "Omogoča ogled trenutne lokacije prijavljenih uporabnikov."
+
+#: views/login-logs.php:117
+msgid "Login Date & Time"
+msgstr "Datum in čas prijave"
+
+#: views/login-logs.php:118
+msgid "Allows you to view the logged in date and time of the users."
+msgstr "Omogoča ogled datuma in časa prijave uporabnikov."
+
+#: views/login-logs.php:121
+msgid "Status"
+msgstr "Status"
+
+#: views/login-logs.php:122
+msgid ""
+"Lets, you know the status of the users, whether they have successfully "
+"logged in or not."
+msgstr ""
+"Omogoča ogled statusa uporabnikov, ali je njihova prijava uspešna ali "
+"neuspešna."
+
+#: views/login-logs.php:126
+#, fuzzy
+msgid ""
+"Allows you to block or whitelist IP Addresses for the logged in users as per "
+"your requirement."
+msgstr ""
+"Omogoča blokiranje in dovoljevanje IP naslovov za prijavljene uporabnike"
+
+#: views/login-logs.php:146
+msgid "Success"
+msgstr "Uspešno"
+
+#: views/login-logs.php:152
+msgid "Failed"
+msgstr "Neuspešno"
+
+#: views/system-status.php:28
+msgid "Wp Clean Up Optimizer System Status"
+msgstr "Sistemski status WP Clean Up Optimizerja"
+
+#: views/system-status.php:32
+msgid "Get System Report"
+msgstr "Pridobi sistemsko poročilo"
+
+#: views/system-status.php:36
+msgid "Close System Report"
+msgstr "Zapri sistemsko poročilo"
+
+#: views/system-status.php:42
+msgid "Environment"
+msgstr "Okolje"
+
+#: views/system-status.php:48
+msgid "Home URL"
+msgstr "Domači URL"
+
+#: views/system-status.php:56
+#, fuzzy
+msgid "Site URL"
+msgstr "URL strani"
+
+#: views/system-status.php:62
+msgid "WP Version"
+msgstr "Verzija WP"
+
+#: views/system-status.php:68
+#, fuzzy
+msgid "WP Multisite Enabled"
+msgstr "WP Multisite Enabled"
+
+#: views/system-status.php:74
+msgid "Web Server Info"
+msgstr "Informacije o web strežniku"
+
+#: views/system-status.php:80
+msgid "PHP Version"
+msgstr "Verzija PHP"
+
+#: views/system-status.php:86
+msgid "MySQL Version"
+msgstr "Verzija MySQL"
+
+#: views/system-status.php:96
+#, fuzzy
+msgid "WP Debug Mode"
+msgstr "Način WP Debug"
+
+#: views/system-status.php:102
+msgid "WP Language"
+msgstr "Jezik WP"
+
+#: views/system-status.php:104
+msgid "Default"
+msgstr "Privzeto"
+
+#: views/system-status.php:108
+#, fuzzy
+msgid "PHP Post Max Size"
+msgstr "Največja velikost POST PHP"
+
+#: views/system-status.php:118
+#, fuzzy
+msgid "WP Max Upload Size"
+msgstr "WP Max Upload Size"
+
+#: views/system-status.php:134
+#, fuzzy
+msgid "WP Remote Post"
+msgstr "WP Remote Post"
+
+#: views/system-status.php:151
+msgid "PHP Max Script Execute Time"
+msgstr "Največji dovoljeni čas izvajanja skripte PHP"
+
+#: views/system-status.php:157
+#, fuzzy
+msgid "PHP Max Input Vars"
+msgstr "PHP Max Input Vars"
+
+#: views/system-status.php:163
+msgid "SUHOSIN Installed"
+msgstr "SUHOSIN nameščen"
+
+#: views/system-status.php:170
+msgid "Default Timezone"
+msgstr "Privzeti časovni pas"
+
+#: views/system-status.php:223
+msgid "Operating System"
+msgstr "Operacijski sistem"
+
+#: views/system-status.php:231
+msgid "Memory usage"
+msgstr "Poraba spomina"
+
+#: views/system-status.php:239
+msgid "SQL Mode"
+msgstr "Način SQL"
+
+#: views/system-status.php:247
+#, fuzzy
+msgid "PHP Safe Mode"
+msgstr "Varni način PHP"
+
+#: views/system-status.php:255
+#, fuzzy
+msgid "PHP Allow URL fopen"
+msgstr "Allow_URL_fopen PHP"
+
+#: views/system-status.php:263
+#, fuzzy
+msgid "PHP Memory Limit"
+msgstr "Omejitev spomina PHP"
+
+#: views/system-status.php:271
+#, fuzzy
+msgid "PHP Max Post Size"
+msgstr "Največja velikost POST PHP"
+
+#: views/system-status.php:279
+#, fuzzy
+msgid "PCRE Backtracking Limit"
+msgstr "Omejitev PCRE Backtracking"
+
+#: views/system-status.php:287
+#, fuzzy
+msgid "PHP Exif support"
+msgstr "Podpora za PHP Exif"
+
+#: views/system-status.php:295
+#, fuzzy
+msgid "PHP IPTC support"
+msgstr "Podpora za PHP IPTC"
+
+#: views/system-status.php:303
+#, fuzzy
+msgid "PHP XML support"
+msgstr "Podpora za PHP XML"
+
+#: views/system-status.php:316
+msgid "Plugins"
+msgstr "Vtičniki"
+
+#: views/system-status.php:320
+msgid "Installed Plugins"
+msgstr "Nameščeni vtičniki"
+
+#: views/system-status.php:381
+msgid "Themes"
+msgstr "Teme"
+
+#: views/system-status.php:385
+msgid "Theme Name"
+msgstr "Naziv teme"
+
+#: views/system-status.php:391
+msgid "Theme Version"
+msgstr "Verzija teme"
+
+#: views/system-status.php:401
+msgid "Author URL"
+msgstr "URL avtorja"
+
+#: wp-cleanup-optimizer.php:304
+msgid "View WP Clean Up Optimzier Documentation"
+msgstr "Ogled dokumentacije WP Clean Up Optimizerja"
+
+#: wp-cleanup-optimizer.php:304
+msgid "Docs"
+msgstr "Dokumenti"
+
+#: wp-cleanup-optimizer.php:305
+#, fuzzy
+msgid "View WP Clean Up Optimzier Premium Editions"
+msgstr "Ogled dokumentacije WP Clean Up Optimizerja"
+
+#: wp-cleanup-optimizer.php:305
+msgid "Go for Premium!"
+msgstr "Pojdi za Premium!"
+
+#, fuzzy
+#~ msgid "WordPress Plugin Customization"
+#~ msgstr "Prilagoditve vtičnika"
+
+#, fuzzy
+#~ msgid "WordPress Theme Customization"
+#~ msgstr "Prilagoditve vtičnika"
+
+#, fuzzy
+#~ msgid "Photo Customization"
+#~ msgstr "Prilagoditve vtičnika"
+
+#, fuzzy
+#~ msgid "Order Now"
+#~ msgstr "ID naročila"
+
+#, fuzzy
+#~ msgid "Banner Design & Customization"
+#~ msgstr "Prilagoditve vtičnika"
+
+#, fuzzy
+#~ msgid "Website Re-design & Customization"
+#~ msgstr "Prilagoditve vtičnika"
+
+#, fuzzy
+#~ msgid "Logo Customization"
+#~ msgstr "Prilagoditve vtičnika"
+
+#, fuzzy
+#~ msgid "WooCommerce Plugin Customization"
+#~ msgstr "Prilagoditve vtičnika"
+
+#, fuzzy
+#~ msgid "Clean Auto Draft"
+#~ msgstr "Samodejni osnutek"
+
+#, fuzzy
+#~ msgid "Clean Transient Feed"
+#~ msgstr "Prehodni vir pregledne plošče"
+
+#, fuzzy
+#~ msgid "Clean Draft"
+#~ msgstr "Osnutek"
+
+#, fuzzy
+#~ msgid "Clean Moderated Comments"
+#~ msgstr "Moderirani komentarji"
+
+#, fuzzy
+#~ msgid "Clean Orphan Comments Meta"
+#~ msgstr "Osiroteli meta komentarji"
+
+#, fuzzy
+#~ msgid "Clean Orphan Posts Meta"
+#~ msgstr "Osiroteli meta prispevki"
+
+#, fuzzy
+#~ msgid "Clean Orphan Relationships"
+#~ msgstr "Osirotele povezave"
+
+#, fuzzy
+#~ msgid "Clean Revision"
+#~ msgstr "Različica"
+
+#, fuzzy
+#~ msgid "Clean Spam Comments"
+#~ msgstr "Neželeni komentarji"
+
+#, fuzzy
+#~ msgid "Clean Trash Comments"
+#~ msgstr "Brisani komentarji"
+
+#, fuzzy
+#~ msgid "Clean Database Tables"
+#~ msgstr "Tip podatkovne baze "
+
+#, fuzzy
+#~ msgid "Database Overview"
+#~ msgstr "Verzija podatkovne baze "
+
+#, fuzzy
+#~ msgid "Data Clean Scheduler"
+#~ msgstr "Shrani opravilo"
+
+#, fuzzy
+#~ msgid ""
+#~ "Remove the data from the WordPress making it clean and empty "
+#~ "automatically (Daily, Weekly, Biweekly, Monthly, Quarterly, Half-Yearly, "
+#~ "Annually)."
+#~ msgstr ""
+#~ "Določite razpored dnevno, tedensko, dvotedensko, mesečno, četrtletno, "
+#~ "polletno, letno iz spustnega seznama."
+
+#, fuzzy
+#~ msgid "Database Clean Scheduler"
+#~ msgstr "Shrani opravilo"
+
+#, fuzzy
+#~ msgid ""
+#~ "Clean data form the tables automatically on different basis i.e. Daily, "
+#~ "Weekly, Biweekly, Monthly, Quarterly, Half-Yearly, Annually"
+#~ msgstr ""
+#~ "Določite razpored dnevno, tedensko, dvotedensko, mesečno, četrtletno, "
+#~ "polletno, letno iz spustnega seznama."
+
+#, fuzzy
+#~ msgid "Manage Comments"
+#~ msgstr "Moderirani komentarji"
+
+#, fuzzy
+#~ msgid ""
+#~ "Enable/Disable Comments on your WordPress website. Manage comments on any "
+#~ "Post or Page. It can be used to disable comments on the entire network."
+#~ msgstr ""
+#~ "Upravljajte s komentarji vseh prispevkov in strani. Onemogočite lahko "
+#~ "komentarje na celotnem blogu."
+
+#, fuzzy
+#~ msgid "Manage Trackbacks"
+#~ msgstr "Urejanje trackbackov / komentarjev"
+
+#, fuzzy
+#~ msgid ""
+#~ "Trackbacks are a way to notify legacy blog systems that you've linked to "
+#~ "them.Allows you to Enable/Disable Trackbacks on your WordPress website."
+#~ msgstr ""
+#~ "Trackbacki so način obveščanja drugih blog sistemov, da ste z njimi "
+#~ "povezani. Če se povežete z drugim WordPress blogom, bo le-ta samodejno "
+#~ "obveščen z uporabo pingbackov."
+
+#, fuzzy
+#~ msgid "Database Delete Scheduler"
+#~ msgstr "Shrani opravilo"
+
+#, fuzzy
+#~ msgid ""
+#~ "Delete data form the tables automatically on different basis i.e. Daily, "
+#~ "Weekly, Biweekly, Monthly, Quarterly, Half-Yearly, Annually."
+#~ msgstr ""
+#~ "Določite razpored dnevno, tedensko, dvotedensko, mesečno, četrtletno, "
+#~ "polletno, letno iz spustnega seznama."
+
+#, fuzzy
+#~ msgid "Database Repair Scheduler"
+#~ msgstr "Shrani opravilo"
+
+#, fuzzy
+#~ msgid ""
+#~ " Repair data form the tables automatically on different basis i.e. Daily, "
+#~ "Weekly, Biweekly, Monthly, Quarterly, Half-Yearly, Annually."
+#~ msgstr ""
+#~ "Določite razpored dnevno, tedensko, dvotedensko, mesečno, četrtletno, "
+#~ "polletno, letno iz spustnega seznama."
+
+#, fuzzy
+#~ msgid ""
+#~ "Optimize data form the tables automatically on different basis i.e. "
+#~ "Daily, Weekly, Biweekly, Monthly, Quarterly, Half-Yearly, Annually."
+#~ msgstr ""
+#~ "Določite razpored dnevno, tedensko, dvotedensko, mesečno, četrtletno, "
+#~ "polletno, letno iz spustnega seznama."
+
+#, fuzzy
+#~ msgid "Repair Database Tables"
+#~ msgstr "Tip podatkovne baze "
+
+#, fuzzy
+#~ msgid "Delete Database Tables"
+#~ msgstr "Tip podatkovne baze "
+
+#, fuzzy
+#~ msgid "Block Login IP Address"
+#~ msgstr "Blokiraj IP naslov"
+
+#, fuzzy
+#~ msgid ""
+#~ "Allows you to block the IP Addresses of the login users from the Login "
+#~ "Logs if he is considered as unauthorized."
+#~ msgstr ""
+#~ "Omogoča blokiranje in dovoljevanje IP naslovov za prijavljene uporabnike"
+
+#, fuzzy
+#~ msgid "Block IP Ranges"
+#~ msgstr "Blokirani IP naslovni prostori"
+
+#, fuzzy
+#~ msgid ""
+#~ " Allows you to block range of IP Addresses that are considered "
+#~ "undesirable or hostile."
+#~ msgstr ""
+#~ "Omogoča blokiranje IP naslovov, za katere menite, da so nezaželeni ali "
+#~ "sovražni."
+
+#, fuzzy
+#~ msgid "Block Single IP Address"
+#~ msgstr "Blokiraj IP naslov"
+
+#, fuzzy
+#~ msgid ""
+#~ "Allows you to add single IP Address for blocking it as per your "
+#~ "requirement."
+#~ msgstr ""
+#~ "Omogoča blokiranje in dovoljevanje IP naslovov za prijavljene uporabnike"
+
+#, fuzzy
+#~ msgid ""
+#~ "Allows you to controls the capabilities of WP Clean Up Optimizer among "
+#~ "different roles of WordPress users."
+#~ msgstr ""
+#~ "Omogoča nadzor nad zmogljivostjo WP Clean Up Optimizerja med različnimi "
+#~ "vlogami WordPress uporabnikov."
+
+#, fuzzy
+#~ msgid "1 Week"
+#~ msgstr "Tedensko"
+
+#, fuzzy
+#~ msgid "Order Now!"
+#~ msgstr "ID naročila"
+
+#, fuzzy
+#~ msgid "1 Month"
+#~ msgstr "Mesečno"
+
+#, fuzzy
+#~ msgid "More Details"
+#~ msgstr "Več dejanj"
+
+#, fuzzy
+#~ msgid "Update Now"
+#~ msgstr "Posodobitev"
+
+#, fuzzy
+#~ msgid "Last Updated:"
+#~ msgstr "Posodobitev"
+
+#~ msgid "Renew Premium Support"
+#~ msgstr "Obnovite premium podporo"
+
+#~ msgid "Licensing"
+#~ msgstr "Licenciranje"
+
+#~ msgid "Scheduler has been Deleted!"
+#~ msgstr "Opravilo je izbrisano!"
+
+#~ msgid "Are you sure, you want to Perform this action?"
+#~ msgstr "Ste prepričani, da želite izvesti to dejanje?"
+
+#~ msgid "Schedulers has been Deleted!"
+#~ msgstr "Opravila so izbrisana!"
+
+#~ msgid "Please choose Action and Scheduler to Proceed!"
+#~ msgstr "Izberite dejanje in opravilo za nadaljevanje!"
+
+#~ msgid "Auto Draft<br>"
+#~ msgstr "Samodejni osnutek<br>"
+
+#, fuzzy
+#~ msgid "Dashboard Transient Feed<br>"
+#~ msgstr "Prehodni vir pregledne plošče<br>"
+
+#~ msgid "Draft<br>"
+#~ msgstr "Osnutek<br>"
+
+#~ msgid "Moderated Comments<br>"
+#~ msgstr "Moderirani komentarji<br>"
+
+#~ msgid "Orphan Comments Meta<br>"
+#~ msgstr "Osiroteli meta komentarji<br>"
+
+#~ msgid "Orphan Posts Meta<br>"
+#~ msgstr "Osiroteli meta prispevki<br>"
+
+#, fuzzy
+#~ msgid "Orphan Relationships<br>"
+#~ msgstr "Osirotele povezave<br>"
+
+#~ msgid "Revision<br>"
+#~ msgstr "Različica<br>"
+
+#, fuzzy
+#~ msgid "Remove Pingbacks<br>"
+#~ msgstr "Odstrani pingbacke<br>"
+
+#, fuzzy
+#~ msgid "Remove Transient Options<br>"
+#~ msgstr "Odstrani prehodne možnosti<br>"
+
+#~ msgid "Remove Trackbacks<br>"
+#~ msgstr "Odstrani Trackbacke<br>"
+
+#~ msgid "Spam Comments<br>"
+#~ msgstr "Neželeni komentarji<br>"
+
+#~ msgid "Trash Comments<br>"
+#~ msgstr "Brisani komentarji<br>"
+
+#~ msgid "Scheduler Type"
+#~ msgstr "Razpored izvajanja"
+
+#~ msgid "Are you sure, you want to save the Scheduler?"
+#~ msgstr "Ste prepričani, da želite shraniti opravilo?"
+
+#~ msgid "Scheduler has been Saved!"
+#~ msgstr "Opravilo je shranjeno!"
+
+#~ msgid "Please choose type of Data and Action to Configure Scheduler!"
+#~ msgstr "Izberite tip podatkov in dejanje za določanje opravila!"
+
+#~ msgid "Are you sure, you want to Delete this Scheduler?"
+#~ msgstr "Ste prepričani, da želite izbrisati to opravilo?"
+
+#~ msgid "Deleted Successfully!"
+#~ msgstr "Brisanje uspešno izvedeno!"
+
+#~ msgid "Optimized Successfully!"
+#~ msgstr "Optimiranje uspešno izvedeno!"
+
+#~ msgid "Repaired Successfully!"
+#~ msgstr "Popravilo uspešno izvedeno!"
+
+#~ msgid "Please choose Tables and Action to configure Scheduler!"
+#~ msgstr "Izberite tabele in dejanje za določanje opravila!"
+
+#~ msgid "Please enter valid IP Range."
+#~ msgstr "Vnesite veljaven IP naslovni prostor."
+
+#~ msgid ""
+#~ "IP Address cannnot be duplicate. Please enter Start IP Address and End IP "
+#~ "Address different!"
+#~ msgstr "Vnesite različen prvi in zadnji IP naslov iz naslovnega prostora!"
+
+#~ msgid "Start Range cannot be greater than End Range."
+#~ msgstr "Prvi IP naslov ne sme biti večji kot zadnji IP naslov."
+
+#~ msgid ""
+#~ "IP Address Range cannnot be duplicate. Please enter different IP "
+#~ "addresses."
+#~ msgstr "IP naslovni prostor ne sme biti podvojen. Vnesite druga IP naslova."
+
+#~ msgid "Please enter valid IP Address"
+#~ msgstr "Vnesite veljaven IP naslov."
+
+#~ msgid "IP Address cannnot be duplicate. Please enter different IP address"
+#~ msgstr "IP naslov ne sme biti podvojen. Vnesite drug IP naslov."
+
+#~ msgid ""
+#~ "You have Exceeded Maximum Login Attempts.<br>So, your IP has been blocked "
+#~ "for today.<br>Kindly, try again after 24 Hours."
+#~ msgstr ""
+#~ "Prekoračili ste največje dovoljeno število poskusov prijave.<br>Vaš IP "
+#~ "naslov je za danes blokiran.<br>Prosimo, poskusite ponovno čez 24 ur."
+
+#~ msgid "WP Clean Up Optimizer Licensing Module"
+#~ msgstr "Licenčni modul WP Clean Up Optimizerja"
+
+#~ msgid "Version"
+#~ msgstr "Verzija"
+
+#~ msgid "URL"
+#~ msgstr "URL"
+
+#~ msgid "API Key"
+#~ msgstr "Ključ API-ja"
+
+#~ msgid "Success! License has been validated."
+#~ msgstr "Licenca je bila uspešno potrjena!"
+
+#~ msgid "Whitelist IP Address"
+#~ msgstr "Dovoli IP naslov"

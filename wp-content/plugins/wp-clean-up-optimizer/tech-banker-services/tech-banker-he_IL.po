@@ -1,0 +1,692 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Tech Banker Services\n"
+"POT-Creation-Date: 2015-01-07 11:28+0530\n"
+"PO-Revision-Date: 2015-01-07 11:28+0530\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: he\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.6.6\n"
+"X-Poedit-Basepath: C:\\xampp\\htdocs\\wp_backup_bank\\wp-content\\plugins"
+"\\wp-clean-up-optimizer\\tech-banker-services\n"
+"Plural-Forms: nplurals=6; plural=(n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n%100>=3 "
+"&& n%100<=10 ? 3 : n%100>=11 && n%100<=99 ? 4 : 5);\n"
+"X-Poedit-KeywordsList: _e;__\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: other-services.php:25
+msgid "Our Other Services"
+msgstr ""
+
+#: other-services.php:33
+msgid "WordPress"
+msgstr ""
+
+#: other-services.php:36
+msgid "Websites & Programming"
+msgstr ""
+
+#: other-services.php:39
+msgid "E-Commerce"
+msgstr ""
+
+#: other-services.php:42
+msgid "Designs & Graphics"
+msgstr ""
+
+#: other-services.php:45
+msgid "Company Branding "
+msgstr ""
+
+#: other-services.php:57
+msgid ""
+"WordPress Theme Installation & Demo Setup ( + Logo + Plugins + Optimization "
+"+ Security)"
+msgstr ""
+
+#: other-services.php:62
+msgid ""
+"We are specialized in WordPress Theme Installation, which includes : "
+"Installation of your purchased Theme.<br/> We cover various areas such as "
+"Personal Websites, Business Websites and much more."
+msgstr ""
+
+#: other-services.php:69 other-services.php:100 other-services.php:132
+#: other-services.php:162 other-services.php:194 other-services.php:222
+#: other-services.php:250 other-services.php:278 other-services.php:306
+#: other-services.php:336 other-services.php:373 other-services.php:401
+#: other-services.php:429 other-services.php:457 other-services.php:485
+#: other-services.php:513 other-services.php:541 other-services.php:569
+#: other-services.php:605 other-services.php:637 other-services.php:669
+#: other-services.php:701 other-services.php:733 other-services.php:765
+#: other-services.php:797 other-services.php:827 other-services.php:861
+#: other-services.php:889 other-services.php:920 other-services.php:951
+#: other-services.php:988 other-services.php:1020 other-services.php:1052
+#: other-services.php:1086 other-services.php:1118 other-services.php:1150
+#: other-services.php:1184 other-services.php:1216
+msgid "Send Enquiry"
+msgstr ""
+
+#: other-services.php:71 other-services.php:102 other-services.php:133
+#: other-services.php:164 other-services.php:195 other-services.php:223
+#: other-services.php:251 other-services.php:279 other-services.php:307
+#: other-services.php:337 other-services.php:374 other-services.php:402
+#: other-services.php:458 other-services.php:486 other-services.php:514
+#: other-services.php:542 other-services.php:607 other-services.php:639
+#: other-services.php:671 other-services.php:703 other-services.php:735
+#: other-services.php:767 other-services.php:798 other-services.php:828
+#: other-services.php:862 other-services.php:890 other-services.php:921
+#: other-services.php:952 other-services.php:990 other-services.php:1022
+#: other-services.php:1054 other-services.php:1088 other-services.php:1120
+#: other-services.php:1152 other-services.php:1186 other-services.php:1218
+msgid "Read More"
+msgstr ""
+
+#: other-services.php:79 other-services.php:110 other-services.php:140
+msgid "Cost of this Service is 70 Euros."
+msgstr ""
+
+#: other-services.php:80
+msgid "The Time Frame would be 2 Business Days and upto 5 Revisions."
+msgstr ""
+
+#: other-services.php:89
+msgid "WordPress Website Migration, Backup & Restore"
+msgstr ""
+
+#: other-services.php:94
+msgid ""
+"With Hundreds of Migrations under our belt, you can trust us.<br/> We can "
+"transfer your WordPress site to a new Host/Domain in 1 Business Day. We will "
+"make sure everything is transferred and works properly."
+msgstr ""
+
+#: other-services.php:111
+msgid "The Time Frame would be 1 Business Day."
+msgstr ""
+
+#: other-services.php:120
+msgid "WordPress Virus Removal Services & Security Review"
+msgstr ""
+
+#: other-services.php:125
+msgid ""
+"We will review the Security of your Website and make necessary changes as "
+"required. We will run virus scans and delete viruses and malicious softwares "
+"found.<br/> A detailed report would be submitted once we finish our job."
+msgstr ""
+
+#: other-services.php:141
+msgid "The Time Frame would be 2 Business Days."
+msgstr ""
+
+#: other-services.php:150
+msgid "WordPress Plugin Customization"
+msgstr ""
+
+#: other-services.php:155
+msgid ""
+"We can customize your existing WordPress Plugin to match your goals. We will "
+"modify existing code with some new or modified features as required. We will "
+"make sure all functionality works properly once the customization is "
+"complete."
+msgstr ""
+
+#: other-services.php:172 other-services.php:258 other-services.php:314
+#: other-services.php:465 other-services.php:493 other-services.php:521
+#: other-services.php:549 other-services.php:577 other-services.php:647
+#: other-services.php:743 other-services.php:869 other-services.php:900
+#: other-services.php:931 other-services.php:959 other-services.php:1064
+#: other-services.php:1128
+msgid "Cost of this Service is 700 Euros."
+msgstr ""
+
+#: other-services.php:173 other-services.php:203 other-services.php:231
+#: other-services.php:259 other-services.php:287 other-services.php:348
+#: other-services.php:616 other-services.php:648 other-services.php:680
+#: other-services.php:712 other-services.php:744 other-services.php:776
+#: other-services.php:1031 other-services.php:1065 other-services.php:1097
+msgid "The Time Frame would be 10 Business Days and upto 5 revisions."
+msgstr ""
+
+#: other-services.php:182
+msgid "Expert Custom WordPress Plugin Development"
+msgstr ""
+
+#: other-services.php:187
+msgid ""
+"We are a Team of Experts in developing Custom WordPress Plugins.<br/>Our "
+"Goal is to provide you with the best, optimized and satisfactory results to "
+"your development needs. We ensure you with clean and optimized code "
+"increasing your plugin's efficiency."
+msgstr ""
+
+#: other-services.php:202 other-services.php:286 other-services.php:347
+#: other-services.php:615 other-services.php:679 other-services.php:711
+#: other-services.php:1030 other-services.php:1096 other-services.php:1226
+msgid "Cost of this Service is 1120 Euros."
+msgstr ""
+
+#: other-services.php:211
+msgid "WordPress SEO Optimization"
+msgstr ""
+
+#: other-services.php:215
+msgid ""
+"We can Increase your site's traffic by improving search engine results. We "
+"will perform some actions such as HTML, CSS & JS Minification, Improve basic "
+"load time, Optimize images for SEO etc. to enhance your WordPress Website "
+"Speed.<br/>A detailed report would be submitted once we finish our job."
+msgstr ""
+
+#: other-services.php:230 other-services.php:998
+msgid "Cost of this Service is 140 Euros."
+msgstr ""
+
+#: other-services.php:239
+msgid "HTML to WordPress"
+msgstr ""
+
+#: other-services.php:243
+msgid ""
+"We can convert your HTML into WordPress Theme as needed.<br/>We will provide "
+"you the User friendly Interface for Managing contents with an easily "
+"understandable documentation. We ensure you the clean and optimized code "
+"increasing your theme's efficiency."
+msgstr ""
+
+#: other-services.php:267
+msgid "PSD to WordPress (Responsive)"
+msgstr ""
+
+#: other-services.php:271
+msgid ""
+"We can convert your PSD Design into WordPress Theme as required.<br/>The "
+"code would be fully Responsive, Optimized and Cross Browser Compatible.<br/"
+">A detailed report would be submitted once we finish our job."
+msgstr ""
+
+#: other-services.php:295
+msgid "WordPress Theme Customization"
+msgstr ""
+
+#: other-services.php:299
+msgid ""
+"You will get a theme modified to match your goals. The .zip pack will "
+"contain modified installable WordPress Theme.<br/>This is a completed "
+"website on a working host loaded with custom contact forms, SEO "
+"configuration & Page Speed Optimization."
+msgstr ""
+
+#: other-services.php:315 other-services.php:410
+msgid "The Time Frame would be 10 Business Days and 5 Revisions."
+msgstr ""
+
+#: other-services.php:324
+msgid "WordPress Theme Development"
+msgstr ""
+
+#: other-services.php:329
+msgid ""
+"We can professionally develop a responsive WordPress theme which would be "
+"unique for your company.<br/>It would be compatible with all web browsers, "
+"Optimized for small screen devices, Professional coding and SEO friendly."
+msgstr ""
+
+#: other-services.php:362
+msgid "Creative & Professional Brochure Design"
+msgstr ""
+
+#: other-services.php:366
+msgid ""
+"Our goal is to produce professional, amazing and high quality brochure "
+"designs to target your customers. The brochure could be Bi-fold, Trifold or "
+"Multi-page as per your requirement.<br/>Design brochures in any style to "
+"advertise your business, product or services."
+msgstr ""
+
+#: other-services.php:381 other-services.php:409 other-services.php:437
+#: other-services.php:1194
+msgid "Cost of this Service is 560 Euros."
+msgstr ""
+
+#: other-services.php:382 other-services.php:1227
+msgid "The Time Frame would be 10 Business Days and upto 5 Revisions."
+msgstr ""
+
+#: other-services.php:390
+msgid "E-Books & Digital Design "
+msgstr ""
+
+#: other-services.php:394
+#, php-format
+msgid ""
+"Provide you with unique concepts and eye-catching E-Book designs. "
+"100% satisfaction is guaranteed with the concept and designs provided for "
+"your company.<br/>Send us the designs which you like and dislike which help "
+"us to gauge a style which suit your needs."
+msgstr ""
+
+#: other-services.php:418
+msgid "Photo Customization"
+msgstr ""
+
+#: other-services.php:422
+msgid ""
+"We can retouch or manipulate the Graphics for you easily as required. "
+"Customizations could be: redesign, color correction and retouch for the "
+"existing Photos or Graphics.<br/>Best quality Photos are delivered in the "
+"format like jpg, png, tiff, PDF and PSD with transparent background, to make "
+"it flexible."
+msgstr ""
+
+#: other-services.php:430 other-services.php:570
+msgid "Order Now"
+msgstr ""
+
+#: other-services.php:438 other-services.php:901
+msgid "The Time Frame would be 5 Business Days and 3 revisions."
+msgstr ""
+
+#: other-services.php:446
+msgid "Caricatures & Cartoon Design"
+msgstr ""
+
+#: other-services.php:450
+msgid ""
+"We can design the most creative Caricatures and Cartoon for your business, "
+"advertisement, or mobile game. We focus on colors, line qualities and styles "
+"to describe our character and design to make it flexible. Designs can be "
+"delivered in JPEG, PNG and PSD with transparent background, to make it "
+"easier to apply on graphic material."
+msgstr ""
+
+#: other-services.php:466
+msgid "The Time Frame would be 7 Business Days and upto 5 revisions."
+msgstr ""
+
+#: other-services.php:474
+msgid "App Icon Design"
+msgstr ""
+
+#: other-services.php:478
+msgid ""
+"We design own unique app icon that will really make your app extra special!"
+"<br>Our goal is to give your app a professional look with a great and "
+"original icon. Let us know any ideas you may have in mind, it would help us "
+"to fulfill your requirements easily."
+msgstr ""
+
+#: other-services.php:494 other-services.php:522 other-services.php:550
+#: other-services.php:578 other-services.php:960
+msgid "The Time Frame would be 8 Business Days and upto 5 revisions."
+msgstr ""
+
+#: other-services.php:502
+msgid "Label & Packaging Design"
+msgstr ""
+
+#: other-services.php:506
+msgid ""
+"Complete packaging design solution for your products such as Labels, packs, "
+"bags and much more. Unique and original design to suite your needs, products "
+"and target consumers.<br/>The final product will be delivered to you in AI, "
+"EPS, PSD or PDF format, all editable."
+msgstr ""
+
+#: other-services.php:530
+msgid "CD Cover Artwork"
+msgstr ""
+
+#: other-services.php:534
+msgid ""
+"Professionally and Creatively designed CD Artwork & Designs are available "
+"here. We provide you with original cover artwork, with multiple formats and "
+"if desired multiple dimensions too.<br>Tell us some ideas and preferences so "
+"that we can meet your needs."
+msgstr ""
+
+#: other-services.php:558
+msgid "Banner Design & Customization"
+msgstr ""
+
+#: other-services.php:562
+msgid ""
+"We customize from existing banner templates or start banner making from "
+"scratch as required.<br/>The final product is delivered in the format like "
+"jpg, png and PSD with transparent background, to make it flexible with other "
+"graphics."
+msgstr ""
+
+#: other-services.php:593
+msgid "Website Design & Development"
+msgstr ""
+
+#: other-services.php:598
+msgid ""
+"We design and develop professional websites with pixel perfect work and "
+"guaranteed satisfaction.<br/>We provide high quality and responsive Website "
+"designs that represents perfect image to your customers."
+msgstr ""
+
+#: other-services.php:625
+msgid "Website Re-design & Customization"
+msgstr ""
+
+#: other-services.php:630
+#, php-format
+msgid ""
+"We can re-design your website to give it a unique and attractive look.<br/"
+">100% satisfaction is guaranteed with the concept and designs provided. For "
+"Modifications of layout and design, send us the ideas which would help us to "
+"meet your needs."
+msgstr ""
+
+#: other-services.php:657
+msgid "Landing Page Design & Development"
+msgstr ""
+
+#: other-services.php:662
+msgid ""
+"We can Design and Develop unique home page which is related to creativity "
+"and expression of ideas. The professional custom design, created by "
+"considering all your requirements and adapted to all your needs.<br/>Final "
+"Product as Organized & grouped layered PSD file, JPG or PNG file and "
+"Optimized Code with friendly services."
+msgstr ""
+
+#: other-services.php:689
+msgid "PHP Programming & Web Development"
+msgstr ""
+
+#: other-services.php:694
+msgid ""
+"We are PHP experts ready to work on your project and provides you with SQL "
+"Injection Security Protection.<br/>Creation of any php script with secure "
+"and optimized code, integration on your project and compatible with your "
+"needs.<br/>We will make sure all the functionality and features works "
+"properly once the development process is completed."
+msgstr ""
+
+#: other-services.php:721
+msgid "Server Configuration & Management"
+msgstr ""
+
+#: other-services.php:726
+msgid ""
+"We are here to install, manage or optimize your server efficiently.<br/>We "
+"specialize in Cpanel Server Management, Website Migration to new dedicated "
+"server and much more.<br/>Also, we can Install a Corn Job to Check yours "
+"Databases and Tables as needed."
+msgstr ""
+
+#: other-services.php:753
+msgid "Bug Fixes & Error Handling"
+msgstr ""
+
+#: other-services.php:758
+msgid ""
+"We are specialized into Website Troubleshooting which includes:<br/>PHP "
+"errors, Database errors, JavaScript errors and CSS errors and much more.<br/"
+">Provide us the detailed description of issue with the error messages or log "
+"files to speed up the fix process."
+msgstr ""
+
+#: other-services.php:775 other-services.php:1160
+msgid "Cost of this Service is 420 Euros."
+msgstr ""
+
+#: other-services.php:785
+msgid ".Net Programming & Development"
+msgstr ""
+
+#: other-services.php:790
+msgid ""
+"We are expertise to develop perfect .NET product and can deliver real worth "
+"to you in succinct solution.<br/>Our Service includes: .NET Application "
+"Migration, Custom .NET Programming, .NET Web Services Development and .NET "
+"Ecommerce Solutions."
+msgstr ""
+
+#: other-services.php:805 other-services.php:835
+msgid "Cost of this Service is 2800 Euros."
+msgstr ""
+
+#: other-services.php:806 other-services.php:836
+msgid "The Time Frame would be 30 Business Days and upto 10 revisions."
+msgstr ""
+
+#: other-services.php:815
+msgid "Desktop Application Development & Customization"
+msgstr ""
+
+#: other-services.php:820
+msgid ""
+"We are into Windows Software Development over years with our extensive "
+"development exposure. We have great experience in developing desktop "
+"applications using wide range of technologies. Provide us the detailed "
+"description of your project to meet your needs."
+msgstr ""
+
+#: other-services.php:850
+msgid "Professional Logo Design"
+msgstr ""
+
+#: other-services.php:854
+msgid ""
+"We are here to create your brand with Unique, Creative and Professional Logo "
+"Designs which suits your requirement. Logos would be in different file "
+"formats such as .ai, .eps, .psd, .pdf, jpg and transparent .png.<br/>We hand "
+"over 100% Copyrights to the final logo designs."
+msgstr ""
+
+#: other-services.php:870
+msgid "The Time Frame would be 5 Business Days and upto 3 Revisions."
+msgstr ""
+
+#: other-services.php:878
+msgid "Logo Customization"
+msgstr ""
+
+#: other-services.php:882
+#, php-format
+msgid ""
+"We can redesign your existing logos to give it a unique and attractive look. "
+"We guaranteed 100% satisfaction with the concept and designs provided for "
+"the Company.<br/>For Modifications of concept and design, send us the ideas "
+"which would help us to meet your needs."
+msgstr ""
+
+#: other-services.php:909
+msgid "Stunning Flyer Design"
+msgstr ""
+
+#: other-services.php:913
+msgid ""
+"We can design unique flyer designs to get your name and logo in the market. "
+"The Designs would be creative, professional and eye-catching to attract your "
+"customers.<br/>Let us know any ideas you may have in mind, it would help us "
+"to fulfill your requirements easily."
+msgstr ""
+
+#: other-services.php:932
+msgid "The Time Frame would be 8 Business Days and upto 5 Revisions."
+msgstr ""
+
+#: other-services.php:940
+msgid "Brand Stationery Design"
+msgstr ""
+
+#: other-services.php:944
+msgid ""
+"We are experts in unique Design package that includes:<br/>Custom Business "
+"Card, Letterhead and Envelope Design which are compatible with your needs."
+"<br/>We focuses on creating a robust brand image and converting Strangers "
+"into your Customers!"
+msgstr ""
+
+#: other-services.php:976
+msgid ""
+"WooCommerce Service Addition (+Theme Installation + Theme Customization + "
+"Payment Gateway Setup)"
+msgstr ""
+
+#: other-services.php:981
+msgid ""
+"We are here to add products to your existing website, increasing the market "
+"value of your business. We also offer you with WooCommerce Theme "
+"Installation, Theme Customization and Payment Gateway Setup for website."
+msgstr ""
+
+#: other-services.php:999
+msgid "The Time Frame would be 2 Business Days and upto 5 revisions."
+msgstr ""
+
+#: other-services.php:1008
+msgid "WooCommerce Theme Development"
+msgstr ""
+
+#: other-services.php:1013
+msgid ""
+"Our goal is to provide you with Professional and Unique WordPress "
+"WooCommerce Theme. The code would be fully Responsive, Optimized and "
+"supports Cross Browser Compatible, increasing market targets. We have "
+"ability to provide the best ecommerce solutions for your business."
+msgstr ""
+
+#: other-services.php:1040
+msgid "WooCommerce Theme Customization"
+msgstr ""
+
+#: other-services.php:1045
+msgid ""
+"We are here to customize your theme to match your requirements. Our goal is "
+"to give your theme a unique and professional look with great features and "
+"functionality. Let us know some ideas and preferences so that we can meet "
+"your needs."
+msgstr ""
+
+#: other-services.php:1074
+msgid "WooCommerce Plugin Development"
+msgstr ""
+
+#: other-services.php:1079
+msgid ""
+"A team of WordPress Experts, now offering WooCommerce Plugin development. We "
+"provide high quality plugin and ensure you with proper working "
+"functionality. A detailed report with documentation would be submitted once "
+"we finish the development process."
+msgstr ""
+
+#: other-services.php:1106
+msgid "WooCommerce Plugin Customization"
+msgstr ""
+
+#: other-services.php:1111
+msgid ""
+"We can integrate and customize WooCommerce plugin with additional "
+"functionalities to meet your demands.<br/>We will ensure that all "
+"functionality works properly with complete optimization and documentation "
+"once the customization is complete."
+msgstr ""
+
+#: other-services.php:1129
+msgid "The Time Frame would be 8 Business Days and upto 4 revisions."
+msgstr ""
+
+#: other-services.php:1138
+msgid "WooCommerce Plugin Installation & Optimization"
+msgstr ""
+
+#: other-services.php:1143
+#, php-format
+msgid ""
+"We are specialized in WooCommerce Plugin which includes :<br/>Installation "
+"and Optimization purchased WooCommerce Plugin.<br/>We guarantee you with "
+"100% satisfaction with the results as per your requirement to match your "
+"goals and market demands."
+msgstr ""
+
+#: other-services.php:1161 other-services.php:1195
+msgid "The Time Frame would be 5 Business Days and upto 3 revisions."
+msgstr ""
+
+#: other-services.php:1172
+msgid "WooCommerce Payment Gateway Integration"
+msgstr ""
+
+#: other-services.php:1177
+msgid ""
+"Provide you with Default Payment Gateway integration such as PayPal, Bank "
+"Transfer, Credit Card and much more.<br/>Let us know, if you need any other "
+"type of Payment Gateway Integration with your website for your customers."
+msgstr ""
+
+#: other-services.php:1204
+msgid "Complete Shopping Cart Setup"
+msgstr ""
+
+#: other-services.php:1209
+msgid ""
+"We are specialized in setting up complete shopping cart for your website. We "
+"provide you with basic uploading of files and making the database connection "
+"to a complete store set up, we have packages to meet your needs."
+msgstr ""
+
+#. translators: 1: The rating
+#: recommended-plugins.php:66
+#, php-format
+msgid "%s rating"
+msgstr ""
+
+#: recommended-plugins.php:82
+msgid "Recommendations"
+msgstr ""
+
+#. translators: 1: Plugin name and version.
+#: recommended-plugins.php:128
+msgid "More Details"
+msgstr ""
+
+#. translators: 1: Plugin name and version.
+#: recommended-plugins.php:139
+msgid "Install Now"
+msgstr ""
+
+#. translators: 1: Plugin name and version
+#: recommended-plugins.php:146
+msgid "Update Now"
+msgstr ""
+
+#: recommended-plugins.php:173
+msgid "By "
+msgstr ""
+
+#: recommended-plugins.php:192 recommended-plugins.php:202
+#: recommended-plugins.php:212 recommended-plugins.php:222
+msgid "Premium Editions"
+msgstr ""
+
+#: recommended-plugins.php:195 recommended-plugins.php:205
+#: recommended-plugins.php:215 recommended-plugins.php:225
+msgid "Visit Website"
+msgstr ""
+
+#: recommended-plugins.php:243
+msgid "Last Updated:"
+msgstr ""
+
+#: recommended-plugins.php:254
+msgid "<strong>Untested</strong> with your version of WordPress"
+msgstr ""
+
+#: recommended-plugins.php:258
+msgid "Incompatible with your version of WordPress"
+msgstr ""
+
+#: recommended-plugins.php:262
+msgid "Compatible with your version of WordPress"
+msgstr ""

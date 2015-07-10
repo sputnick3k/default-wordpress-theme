@@ -1,0 +1,1239 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: WP Clean Up Optimizer\n"
+"POT-Creation-Date: 2015-02-04 17:56+0530\n"
+"PO-Revision-Date: \n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: fr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.6.6\n"
+"X-Poedit-KeywordsList: .;__;_e\n"
+"X-Poedit-Basepath: C:\\xampp\\htdocs\\WPTesting\\wp-content\\plugins\\wp-"
+"clean-up-optimizer\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: lib/header.php:37
+msgid "Get Started"
+msgstr "Commencer ici"
+
+#: lib/header.php:40
+msgid "Watch Clean Up Video!"
+msgstr "Regarder les vidéos de clean"
+
+#: lib/header.php:44
+msgid "read documentation here"
+msgstr "Lire la documentation"
+
+#: lib/header.php:49
+msgid "Go Premium"
+msgstr "Go Premium"
+
+#: lib/header.php:53
+msgid "Features"
+msgstr "Features"
+
+#: lib/header.php:58
+msgid "Online Demos"
+msgstr "Démonstration Online"
+
+#: lib/header.php:63
+#, fuzzy
+msgid "Premium Pricing Plan"
+msgstr "Prix des plans Premium"
+
+#: lib/header.php:70
+msgid "Knowledge Base"
+msgstr "Base de connaissances"
+
+#: lib/header.php:75
+msgid "Support Forum"
+msgstr "Forum de support technique"
+
+#: lib/header.php:80
+msgid "FAQ's"
+msgstr "FAQ"
+
+#: lib/header.php:85
+#, fuzzy
+msgid "Detailed Features"
+msgstr "Features"
+
+#: lib/header.php:91
+msgid "More Actions"
+msgstr "Plus d'actions"
+
+#: lib/header.php:95
+msgid "Plugin Customization"
+msgstr "Plugin Customization"
+
+#: lib/header.php:100 lib/header.php:158 lib/menus.php:19
+#: lib/top-bar-menu.php:62
+msgid "Recommendations"
+msgstr "Les recommandations"
+
+#: lib/header.php:105 lib/header.php:161 lib/menus.php:20
+#: lib/top-bar-menu.php:68
+msgid "Our Other Services"
+msgstr "Nos autres services"
+
+#: lib/header.php:143 lib/menus.php:12 lib/top-bar-menu.php:20
+msgid "Dashboard"
+msgstr "Tableau de bord"
+
+#: lib/header.php:146 lib/menus.php:14 lib/top-bar-menu.php:32
+#: views/login-logs.php:38
+msgid "Login Logs"
+msgstr "Connexion"
+
+#: lib/header.php:149 lib/menus.php:15 lib/top-bar-menu.php:38
+#: views/cron-job.php:67
+msgid "Cron Jobs"
+msgstr "Tâche cron"
+
+#: lib/header.php:152 lib/menus.php:16 lib/top-bar-menu.php:44
+#: views/general-settings.php:42
+msgid "General Settings"
+msgstr "Paramètres généraux"
+
+#: lib/header.php:155 lib/menus.php:18 lib/top-bar-menu.php:56
+msgid "Premium Editions"
+msgstr "Édition Premium"
+
+#: lib/install-script.php:155
+msgid "Your IP has been blocked!"
+msgstr "Votre adresse IP a été bloquée!"
+
+#: lib/install-script.php:156
+msgid "Maximum Login attempts left [maxAttempts]"
+msgstr "Maximum de tentatives de connexion restantes"
+
+#: lib/install-script.php:157
+msgid ""
+"You have Exceeded Maximum Login Attempts.\n"
+" So, your IP has been blocked for today. \n"
+" Kindly, try again after 24 Hours."
+msgstr ""
+"Vous avez atteint le maximum de tentatives de connexion. Votre adresse IP à "
+"été bloqué pour aujourd'hui. Merci de réessayer dans 24 heures."
+
+#: lib/menus.php:13 lib/top-bar-menu.php:26
+#: views/automatic-plugin-update.php:35 views/automatic-plugin-update.php:40
+#, fuzzy
+msgid "Plugin Updates"
+msgstr "Extension"
+
+#: lib/menus.php:17 lib/top-bar-menu.php:50
+msgid "System Status"
+msgstr "Statut du système"
+
+#: views/automatic-plugin-update.php:44 views/dashboard.php:248
+#: views/dashboard.php:258 views/general-settings.php:104
+#: views/general-settings.php:232
+msgid "Enable"
+msgstr "Autorisé"
+
+#: views/automatic-plugin-update.php:48 views/dashboard.php:249
+#: views/dashboard.php:259 views/general-settings.php:105
+#: views/general-settings.php:233
+msgid "Disable"
+msgstr "Désactiver"
+
+#: views/cron-job.php:74
+msgid "Custom"
+msgstr "Personnalisation"
+
+#: views/cron-job.php:75
+msgid "Core"
+msgstr "Noyau"
+
+#: views/cron-job.php:81
+msgid "Custom Events"
+msgstr "Événement personnalisé"
+
+#: views/cron-job.php:83 views/dashboard.php:240 views/dashboard.php:599
+#: views/dashboard.php:657 views/dashboard.php:658 views/dashboard.php:659
+#: views/dashboard.php:893 views/general-settings.php:59
+#: views/general-settings.php:95 views/general-settings.php:193
+#, fuzzy
+msgid " (Available in Premium Editions)"
+msgstr "Édition Premium"
+
+#: views/cron-job.php:92 views/dashboard.php:285 views/dashboard.php:609
+#: views/dashboard.php:655
+msgid "Bulk Action"
+msgstr "Action globale"
+
+#: views/cron-job.php:93 views/cron-job.php:138 views/dashboard.php:657
+#: views/dashboard.php:904 views/dashboard.php:1184 views/dashboard.php:1254
+msgid "Delete"
+msgstr "Effacer"
+
+#: views/cron-job.php:95 views/dashboard.php:288 views/dashboard.php:661
+#: views/dashboard.php:765 views/dashboard.php:844
+msgid "Apply"
+msgstr "Appliquer"
+
+#: views/cron-job.php:103 views/cron-job.php:245
+msgid "Name of the Hook"
+msgstr "Nom du crochet"
+
+#: views/cron-job.php:104
+msgid "List of Custom scheduled events."
+msgstr "Liste des événements personnalisés"
+
+#: views/cron-job.php:107 views/cron-job.php:249
+msgid "Interval Hook"
+msgstr "Crochet d'intervalle"
+
+#: views/cron-job.php:108 views/cron-job.php:250
+msgid "It specifies the Interval of a Scheduler. "
+msgstr "Ceci spécifie les intervalles de programmation"
+
+#: views/cron-job.php:111 views/cron-job.php:253
+msgid "Args"
+msgstr "Args"
+
+#: views/cron-job.php:114 views/cron-job.php:256 views/dashboard.php:1206
+msgid "Next Execution"
+msgstr "Exécution suivante "
+
+#: views/cron-job.php:115 views/cron-job.php:257
+msgid ""
+"It allows you to view the Date & Time for next execution of a Scheduler."
+msgstr ""
+"Il vous permet de voir la date et l'heure de la prochaine exécution du "
+"programme"
+
+#: views/cron-job.php:234
+msgid "Core Events"
+msgstr "Noyau des événements"
+
+#: views/cron-job.php:246
+msgid ""
+"List of Core scheduled events. Which are Default schedulers created by "
+"WordPress."
+msgstr ""
+"Liste des programmations d'événements, qui sont par défaut le programmateur "
+"de voir presse"
+
+#: views/cron-job.php:395 views/cron-job.php:412 views/dashboard.php:1390
+#: views/dashboard.php:1532
+msgid "Show entries"
+msgstr "Montrez les entrées"
+
+#: views/cron-job.php:425 views/cron-job.php:432 views/dashboard.php:1327
+#: views/dashboard.php:1403 views/dashboard.php:1413 views/dashboard.php:1496
+#: views/dashboard.php:1545 views/general-settings.php:265
+#: views/general-settings.php:271 views/general-settings.php:277
+#: views/general-settings.php:283 views/general-settings.php:289
+#: views/login-logs.php:194
+msgid "Error!"
+msgstr "Erreur!"
+
+#: views/cron-job.php:425 views/cron-job.php:432 views/dashboard.php:1403
+#: views/dashboard.php:1413 views/dashboard.php:1545
+#: views/general-settings.php:265 views/general-settings.php:271
+#: views/general-settings.php:277 views/general-settings.php:283
+#: views/general-settings.php:289 views/login-logs.php:194
+msgid "This Feature is Available in Premium Editions!"
+msgstr "Cette fonctionnalité est disponible dans les éditions premium!"
+
+#: views/dashboard.php:182 views/general-settings.php:33
+#: views/login-logs.php:30
+msgid "Success!"
+msgstr "Réussi!"
+
+#: views/dashboard.php:191
+msgid "WP Clean Up Optimizer"
+msgstr "WP Clean Up Optimizer"
+
+#: views/dashboard.php:197
+msgid "Database Information"
+msgstr "Information de la base de données"
+
+#: views/dashboard.php:201
+msgid "Database Host "
+msgstr "Hébergement de la base de données"
+
+#: views/dashboard.php:207
+msgid "Database Name "
+msgstr "Nom de la base de données"
+
+#: views/dashboard.php:213
+msgid "Database User "
+msgstr "Utilisateurs de la base de données"
+
+#: views/dashboard.php:219
+msgid "Database Type "
+msgstr "Type de la base de données"
+
+#: views/dashboard.php:227
+msgid "Database Version"
+msgstr "Version de la base de données"
+
+#: views/dashboard.php:240
+msgid "Manage Trackbacks / Comments"
+msgstr "Gérer Trackbacks / commentaires"
+
+#: views/dashboard.php:244
+msgid "Trackbacks"
+msgstr "Trackbacks "
+
+#: views/dashboard.php:245 views/dashboard.php:431
+msgid ""
+"Trackbacks are a way to notify legacy blog systems that you have linked to "
+"them. If you link to a WordPress blog they will be notified automatically "
+"using pingbacks, no other action necessary."
+msgstr ""
+"Les  t de la ville qui trackbacks sont les notifications du système de blog "
+"à laquelle vous êtes connectés. Si vous êtes connectés à un blog WordPress, "
+"les notifications seront faites automatiquement par le biais de pingbacks. "
+"Pas d'autres actions seront nécessaires."
+
+#: views/dashboard.php:254
+msgid "Comments"
+msgstr "Commentaires"
+
+#: views/dashboard.php:255
+msgid ""
+"Manage comments on any Post or Page. It can be used to disable comments on "
+"the entire Blog."
+msgstr ""
+"Organiser les commentaires de chaque poste et page. Ceci peut être utilisé "
+"pour désactiver les commentaires sur le blog, entièrement"
+
+#: views/dashboard.php:269 views/dashboard.php:278
+msgid "Data Optimizer"
+msgstr "Optimiser les données"
+
+#: views/dashboard.php:270 views/dashboard.php:478
+msgid "Data Optimizer Scheduler"
+msgstr "Optimiser les données programmées"
+
+#: views/dashboard.php:271 views/dashboard.php:643
+msgid "DB Optimizer"
+msgstr "DB Optimizer "
+
+#: views/dashboard.php:272 views/dashboard.php:881
+msgid "DB Optimizer Scheduler"
+msgstr "DB Optimizer Scheduler "
+
+#: views/dashboard.php:286 views/dashboard.php:311 views/dashboard.php:325
+#: views/dashboard.php:339 views/dashboard.php:353 views/dashboard.php:367
+#: views/dashboard.php:381 views/dashboard.php:395 views/dashboard.php:409
+#: views/dashboard.php:423 views/dashboard.php:437 views/dashboard.php:451
+#: views/dashboard.php:465 views/dashboard.php:610 views/dashboard.php:656
+#: views/dashboard.php:761 views/dashboard.php:840 views/dashboard.php:903
+#: views/dashboard.php:1181
+msgid "Empty"
+msgstr "Vide"
+
+#: views/dashboard.php:294 views/dashboard.php:492
+msgid "Type of Data"
+msgstr "Type de données"
+
+#: views/dashboard.php:295
+msgid "Count"
+msgstr "Compte"
+
+#: views/dashboard.php:296 views/dashboard.php:671 views/login-logs.php:125
+msgid "Action"
+msgstr "Action de conseillent une décennie de Guy de suit et"
+
+#: views/dashboard.php:305 views/dashboard.php:501
+msgid ""
+"Auto Draft are the Page / Post saved as draft automatically in WordPress "
+"Database."
+msgstr ""
+"Les brouillons automatiques sont les pages, les postes sauvegardées "
+"automatiquement en brouillon dans la base de données WordPress"
+
+#: views/dashboard.php:305 views/dashboard.php:501
+msgid "Auto Draft"
+msgstr "Brouillon automatique"
+
+#: views/dashboard.php:319 views/dashboard.php:509
+msgid ""
+"Transient Feed in WordPress are use Database entries to cache a certain "
+"entries."
+msgstr ""
+"RSS transitoire dans WordPress sont entrées de Base de données utiliser pour "
+"mettre en cache certaines entrées"
+
+#: views/dashboard.php:319 views/dashboard.php:509
+msgid "Dashboard Transient Feed"
+msgstr "Tableau de bord des transitions de plus"
+
+#: views/dashboard.php:333 views/dashboard.php:517
+msgid "New Post / Page created as Draft in WordPress."
+msgstr "Nouveau message / page créée comme projet dans WordPress."
+
+#: views/dashboard.php:333 views/dashboard.php:517
+msgid "Draft"
+msgstr "Brouillon"
+
+#: views/dashboard.php:347 views/dashboard.php:525
+msgid ""
+"Orphan Comments Meta holds the miscellaneous bits of extra information of "
+"comment."
+msgstr ""
+"Commentaires orphelins Meta détient les bits d'information divers "
+"supplémentaire de commentaire."
+
+#: views/dashboard.php:347 views/dashboard.php:525
+msgid "Orphan Comments Meta"
+msgstr "Commentaire orphelin Méta"
+
+#: views/dashboard.php:361 views/dashboard.php:533
+msgid "Orphan Posts Meta holds the junk or obsolete data."
+msgstr "Orphan messages Meta détient la jonque ou des données obsolètes."
+
+#: views/dashboard.php:361 views/dashboard.php:533
+msgid "Orphan Posts Meta"
+msgstr "Poste orphelin Méta"
+
+#: views/dashboard.php:375 views/dashboard.php:541
+msgid "Orphan Relationships holds the junk or obsolete Category and Tag."
+msgstr "Relations orphelins détient la jonque ou Catégorie obsolète et Tag."
+
+#: views/dashboard.php:375 views/dashboard.php:541
+msgid "Orphan Relationships"
+msgstr "Orphelin en relation"
+
+#: views/dashboard.php:389 views/dashboard.php:549
+msgid ""
+"The WordPress revisions system stores a record of each saved draft or "
+"published update.Revisions are stored in the posts table."
+msgstr ""
+"Le système de révisions WordPress stocke un enregistrement de chaque projet "
+"enregistré ou update.Revisions publiées sont stockées dans la table de "
+"poteaux."
+
+#: views/dashboard.php:389 views/dashboard.php:549
+msgid "Revision"
+msgstr "Révision"
+
+#: views/dashboard.php:403 views/dashboard.php:557
+msgid ""
+"A Pingback is a type of comment that's created when you link to another blog "
+"post where pingbacks are enabled."
+msgstr ""
+"Un Pingback est un type de commentaire qui est créé lorsque vous liez à un "
+"autre blog où pingbacks sont activés."
+
+#: views/dashboard.php:403 views/dashboard.php:557
+msgid "Remove Pingbacks"
+msgstr "Enlever Pingbacks "
+
+#: views/dashboard.php:417 views/dashboard.php:565
+msgid ""
+"Transient Options are like a basic cache system used by wordpress. Clearing "
+"these options before a backup will help to save space in your backup files."
+msgstr ""
+"Options de transitoires sont comme un système de cache de base utilisé par "
+"wordpress. L'effacement de ces options avant une sauvegarde aidera à "
+"économiser de l'espace dans vos fichiers de sauvegarde."
+
+#: views/dashboard.php:417 views/dashboard.php:565
+msgid "Remove Transient Options"
+msgstr "Enlever les options de transition"
+
+#: views/dashboard.php:431 views/dashboard.php:573
+msgid "Remove Trackbacks"
+msgstr "Enlever Trackbacks"
+
+#: views/dashboard.php:445 views/dashboard.php:581
+msgid "Spam Comments are the unwanted comments in the WordPress database."
+msgstr ""
+"Spam commentaires sont les commentaires indésirables dans la base de données "
+"WordPress."
+
+#: views/dashboard.php:445 views/dashboard.php:581
+msgid "Spam Comments"
+msgstr "Commentaires spams"
+
+#: views/dashboard.php:459 views/dashboard.php:589
+msgid ""
+"Trash Comments are the comments which are stored in the WordPress Trash."
+msgstr ""
+"Trash commentaires sont les commentaires qui sont stockés dans la Corbeille "
+"WordPress."
+
+#: views/dashboard.php:459 views/dashboard.php:589
+msgid "Trash Comments"
+msgstr "Corbeille des commentaires"
+
+#: views/dashboard.php:486
+msgid "Choose Type of Data"
+msgstr "Choisir le type de données"
+
+#: views/dashboard.php:573
+#, fuzzy
+msgid ""
+"Trackbacks are a way to notify legacy blog systems that you've linked to "
+"them. If you link to a WordPress blog they'll be notified automatically "
+"using pingbacks, no other action necessary."
+msgstr ""
+"Les  t de la ville qui trackbacks sont les notifications du système de blog "
+"à laquelle vous êtes connectés. Si vous êtes connectés à un blog WordPress, "
+"les notifications seront faites automatiquement par le biais de pingbacks. "
+"Pas d'autres actions seront nécessaires."
+
+#: views/dashboard.php:599 views/dashboard.php:893
+msgid "Configure Scheduler"
+msgstr "Configurer la programmation"
+
+#: views/dashboard.php:604 views/dashboard.php:898
+msgid "Action "
+msgstr "Action"
+
+#: views/dashboard.php:605 views/dashboard.php:899
+msgid "Allows you to select the type of Action."
+msgstr "Ceci vous autorise à sélectionner le type d'action."
+
+#: views/dashboard.php:616 views/dashboard.php:912
+msgid "Duration "
+msgstr "Durée"
+
+#: views/dashboard.php:617 views/dashboard.php:913
+msgid ""
+"Configuration the scheduler Daily, Weekly, Biweekly, Monthly, Quarterly, "
+"Half-Yearly, Annually from the DropDown."
+msgstr ""
+"Configuration de la programmation journalière, hebdomadaire, mensuel, "
+"bihebdomadaire, trimestriel, semestriel et annuel du menu déroulant."
+
+#: views/dashboard.php:621 views/dashboard.php:917
+msgid "Daily"
+msgstr "Journalière"
+
+#: views/dashboard.php:622 views/dashboard.php:918 views/dashboard.php:1225
+msgid "Weekly"
+msgstr "Hebdomadaire"
+
+#: views/dashboard.php:623 views/dashboard.php:919 views/dashboard.php:1229
+msgid "Biweekly"
+msgstr "Bihebdomadaire"
+
+#: views/dashboard.php:624 views/dashboard.php:920 views/dashboard.php:1233
+msgid "Monthly"
+msgstr "Mensuel"
+
+#: views/dashboard.php:625 views/dashboard.php:921 views/dashboard.php:1237
+msgid "Quarterly"
+msgstr "Trimestriel"
+
+#: views/dashboard.php:626 views/dashboard.php:922 views/dashboard.php:1241
+msgid "Half-Yearly"
+msgstr "Semestrielle"
+
+#: views/dashboard.php:627 views/dashboard.php:923 views/dashboard.php:1245
+msgid "Annually"
+msgstr "Annuel"
+
+#: views/dashboard.php:629 views/dashboard.php:925
+msgid "Save Scheduler"
+msgstr "Sauvegarder la programmation"
+
+#: views/dashboard.php:647 views/dashboard.php:885
+msgid ""
+"Note : Table Names highlighted with red color and an asterisk (*) are "
+"wordpress inbuilt Tables. <br/> They are disabled by us  so not to perform "
+"delete and clean action because they can destroy your Wordpress "
+"unintentionally."
+msgstr ""
+"À noter : les  pas noms  du tableau surligné en rouge et avec l'Astérix (*) "
+"sont les tableaux intégrés dans WordPress. <br/>Sont désactivés par nous-"
+"mêmes,de cette façon le système n'effectuera pas l'action d'éffassage et de "
+"nétoyage, ce qui pourrait détruir votre Wordpress involontairement."
+
+#: views/dashboard.php:658 views/dashboard.php:905 views/dashboard.php:1187
+msgid "Optimize"
+msgstr "Optimiser "
+
+#: views/dashboard.php:659 views/dashboard.php:906 views/dashboard.php:1190
+msgid "Repair"
+msgstr "Réparer"
+
+#: views/dashboard.php:667 views/dashboard.php:938
+msgid "Table"
+msgstr "Tableau"
+
+#: views/dashboard.php:668 views/dashboard.php:941
+msgid "Rows"
+msgstr "Rend"
+
+#: views/dashboard.php:669 views/dashboard.php:939
+msgid "Type"
+msgstr "Type"
+
+#: views/dashboard.php:670 views/dashboard.php:942
+msgid "Size"
+msgstr "Taille"
+
+#: views/dashboard.php:857 views/dashboard.php:1124
+msgid "Total"
+msgstr "Total"
+
+#: views/dashboard.php:932
+msgid "Choose Tables"
+msgstr "Choisir les tableaux"
+
+#: views/dashboard.php:940
+msgid "Overhead"
+msgstr "Dessus"
+
+#: views/dashboard.php:1141
+msgid "Manage Database Optimizer Schedules"
+msgstr "Gérer la programmation de la base de données"
+
+#: views/dashboard.php:1148
+msgid "Tables"
+msgstr "Tableau"
+
+#: views/dashboard.php:1149
+msgid "Overview"
+msgstr "Vue d'ensemble"
+
+#: views/dashboard.php:1176
+msgid "Action Type"
+msgstr "Action type"
+
+#: views/dashboard.php:1198
+msgid "Start Date"
+msgstr "Date de commencement"
+
+#: views/dashboard.php:1215
+msgid "Schedule Type"
+msgstr "Type de programmation"
+
+#: views/dashboard.php:1302 views/dashboard.php:1335
+msgid "Are you sure, you want to Clean?"
+msgstr "Êtes-vous sûrs de vouloir nettoyer ?"
+
+#: views/dashboard.php:1319 views/dashboard.php:1352
+msgid "Successfully Cleaned!"
+msgstr "Nettoyage réussi!"
+
+#: views/dashboard.php:1327
+msgid "Please choose Action and Type of Data to Proceed!"
+msgstr "Merci de choisir l'action et le type de données à procéder"
+
+#: views/dashboard.php:1425 views/dashboard.php:1460
+msgid "Cleaned Successfully!"
+msgstr "Nettoyage réussi!"
+
+#: views/dashboard.php:1429 views/dashboard.php:1471
+msgid "Are you sure, you want to Perform this Action?"
+msgstr "Vous sûr de vouloir effectuer cette action ?"
+
+#: views/dashboard.php:1496
+msgid "Please choose Action or Table to proceed!."
+msgstr "Merci choisir l'action et le tableau a procédé!"
+
+#: views/general-settings.php:34
+msgid "General Settings has been updated  "
+msgstr "Les paramètres généraux ont été mis à jour."
+
+#: views/general-settings.php:45
+msgid "Save Changes"
+msgstr "Sauvegarder les changements"
+
+#: views/general-settings.php:51 views/general-settings.php:59
+msgid "Message Settings"
+msgstr "Message des paramètres"
+
+#: views/general-settings.php:52 views/general-settings.php:95
+msgid "Security Settings"
+msgstr "Paramètres de sécurité"
+
+#: views/general-settings.php:53 views/general-settings.php:193
+msgid "Plugin Settings"
+msgstr "Paramètre de l'extension"
+
+#: views/general-settings.php:64
+msgid "IP Block Message"
+msgstr "Message des IP bloqués"
+
+#: views/general-settings.php:65
+msgid ""
+"It shows the Error Message for the users whose IP is blocked from the "
+"Security Settings or Login Logs if the users seems to be unauthorized."
+msgstr ""
+"Il montrera le message d'erreur pour les adresses IP qui auront été bloquées "
+"par les paramètres de sécurité ou celle de l'identification, si toutefois, "
+"l'utilisateur n'était pas autorisé."
+
+#: views/general-settings.php:68
+msgid "Enter the error message here when the IP is Blocked."
+msgstr "Entrez le message d'erreur des adresses IP bloqués ici."
+
+#: views/general-settings.php:73 views/general-settings.php:111
+msgid "Max Login Attempts"
+msgstr "Tentative d'identification maximum "
+
+#: views/general-settings.php:74
+msgid ""
+"It allows you to set dynamic Error Message for the users to show the number "
+"of login attempts left incase username or password is left empty or filled "
+"invalid."
+msgstr ""
+"Ceci vous autorise à mettre en place un message d'erreur dynamique qui "
+"montrera aux utilisateurs le nombre de tentatives d'identification restante, "
+"au cas où le nom d'utilisateur et le mot de passe était resté vide ou ou pas "
+"rempli correctement."
+
+#: views/general-settings.php:77
+msgid "Enter the error message here for Maxium login Attempts."
+msgstr ""
+"Entrez le message d'erreur pour les tentatives d'identification maximum ici. "
+
+#: views/general-settings.php:82
+msgid "Max Login Exceeded Error"
+msgstr "Erreur de dépassement de tentative d'identification "
+
+#: views/general-settings.php:83
+msgid ""
+"User can set dynamic Error Message for the users whose IP gets blocked after "
+"the Maximum Login Attempts Exceeds."
+msgstr ""
+"Vous pouvez paramétrer la dynamique des messages d'erreur pour les "
+"utilisateurs dont l'adresse IP aura été bloquée à cause d'un dépassement de "
+"tentative d'identification."
+
+#: views/general-settings.php:86
+msgid "Enter the error message here for Maxium login Exceeded."
+msgstr ""
+"Entrez le message d'erreur pour les dépassements de tentatives "
+"d'identification ici."
+
+#: views/general-settings.php:100
+msgid "Auto IP Block"
+msgstr "Bloquer adresse IP automatiquement"
+
+#: views/general-settings.php:101
+msgid ""
+"Auto IP Block allows to block the IP Address when the user exceeds the "
+"Maximum Login Attempts."
+msgstr ""
+"Structures et causeurs à demande de la dans un quand même des vous pouvez "
+"donc bloqués les adresses IP des utilisateurs dans la tentative "
+"d'identification aura atteint son maximum."
+
+#: views/general-settings.php:112
+msgid "User can set Maximum Login Attempts for their Website."
+msgstr ""
+"L'utilisateur peut paramétrer le maximum de tentatives d'identification sur "
+"son site Internet."
+
+#: views/general-settings.php:121 views/login-logs.php:158
+msgid "Block IP Address"
+msgstr "Bloquer l'adresse IP."
+
+#: views/general-settings.php:122
+msgid ""
+"It allows you to block IP Address that are considered undesirable or hostile."
+msgstr ""
+"Ceci vous autorise à bloquer les adresses IP qui auront été considérées "
+"indésirables ou hostiles."
+
+#: views/general-settings.php:126
+msgid "Add Block IP Address"
+msgstr "Ajouter des adresses IP à bloquer"
+
+#: views/general-settings.php:131
+msgid "Blocked IP Addresses"
+msgstr "Bloquer les adresse IP"
+
+#: views/general-settings.php:132
+msgid "It show the list of all IP Addresses that are blocked by the User."
+msgstr ""
+"Ceci montre la liste de toutes les adresses IP qui auront été bloquées par "
+"l'utilisateur"
+
+#: views/general-settings.php:145
+msgid "Delete Block IP Addresses"
+msgstr "Effacer les adresses IP bloqués"
+
+#: views/general-settings.php:150
+msgid "Block Start IP Range"
+msgstr "Bloquer  la gamme de commencement des adresses IP"
+
+#: views/general-settings.php:151
+msgid "It is the Starting range of the IP Address to be blocked."
+msgstr "Ceci est la gamme de commencement des adresses IP qui seront bloquées."
+
+#: views/general-settings.php:159
+msgid "Block End IP Range"
+msgstr "Bloquer La gamme de fin des adresses IP"
+
+#: views/general-settings.php:160
+msgid "It is the Ending range of the IP Address to be blocked."
+msgstr "Ceci est la gamme de fins des adresses IP qui seront bloquées."
+
+#: views/general-settings.php:164
+msgid "Add Block IP Range"
+msgstr "Ajouter une gamme d'adresses IP à bloquer"
+
+#: views/general-settings.php:169
+msgid "Blocked IP Range"
+msgstr "Gamme des adresses IP bloqués"
+
+#: views/general-settings.php:170
+msgid ""
+"Blocked IP Range show the list of all the IP Addresses range that are "
+"blocked by the user."
+msgstr ""
+"La gamme des adresses IP bloqués montre la liste de toutes les gammes des "
+"adresses IP qui sont bloquées par l'utilisateur."
+
+#: views/general-settings.php:184
+msgid "Delete Block IP Range"
+msgstr "Effacer la gamme des adresses IP bloqués"
+
+#: views/general-settings.php:200
+msgid "Show Clean Up Plugin Menu"
+msgstr "Montrer le menu de Clean Up"
+
+#: views/general-settings.php:201
+msgid ""
+"It allows you to control the capabilities of WP Clean Up Optimizer among "
+"different roles of WordPress users."
+msgstr ""
+"Ceci vous autorise à contrôler la capacité de WP Clean Up Optimizer, pour "
+"les différents rôles des utilisateurs de WordPress."
+
+#: views/general-settings.php:206
+msgid "Administrator"
+msgstr "Administrateur"
+
+#: views/general-settings.php:210
+msgid "Editor"
+msgstr "Éditeur"
+
+#: views/general-settings.php:214
+msgid "Author"
+msgstr "Auteur"
+
+#: views/general-settings.php:218
+msgid "Contributor"
+msgstr "Contributeurs"
+
+#: views/general-settings.php:222
+msgid "Subscriber"
+msgstr "Abonné"
+
+#: views/general-settings.php:228
+msgid "Clean Up Menu Top Bar"
+msgstr "Bar de menu du haut Clean Up"
+
+#: views/general-settings.php:229
+msgid ""
+"It allows you to enable or disable WP Clean Up Optimizer for top menu bar "
+"among different roles of WordPress users."
+msgstr ""
+"Celle-ci vous autorise d'activer ou de désactiver WP Clean Up Optimizer dans "
+"la barre de menu du haut en fonction du rôle des différents utilisateurs de "
+"WordPress. "
+
+#: views/login-logs.php:31
+msgid "Action has been updated"
+msgstr "L'action a été mise à jour."
+
+#: views/login-logs.php:46
+msgid "Recent Login Details on World Map"
+msgstr "Détails des identifications récentes sur la carte du monde"
+
+#: views/login-logs.php:98
+msgid "Recent Login Details"
+msgstr "Détail des identifications restantes"
+
+#: views/login-logs.php:105
+msgid "Username"
+msgstr "Nom d'utilisateur"
+
+#: views/login-logs.php:106
+msgid "Allows you to view the username of recent logged in users."
+msgstr ""
+"Vous autorise à voir les noms d'utilisateur des identifications récentes."
+
+#: views/login-logs.php:109
+msgid "IP Address"
+msgstr "Adresse IP"
+
+#: views/login-logs.php:110
+msgid "Allows you to view the IP Address of the logged in users."
+msgstr "Vous autorise à voir l'adresse IP des utilisateurs enregistrés."
+
+#: views/login-logs.php:113
+msgid "Location"
+msgstr "Localisation"
+
+#: views/login-logs.php:114
+msgid "Allows you to view the current location of the logged in users."
+msgstr "Vous autorise à voir la location des utilisateurs enregistrés."
+
+#: views/login-logs.php:117
+msgid "Login Date & Time"
+msgstr "Date et heure des identifications."
+
+#: views/login-logs.php:118
+msgid "Allows you to view the logged in date and time of the users."
+msgstr ""
+"Vous autorise à voir la date et leur à laquelle les utilisateurs se seront "
+"identifiés"
+
+#: views/login-logs.php:121
+msgid "Status"
+msgstr "Statut"
+
+#: views/login-logs.php:122
+msgid ""
+"Lets, you know the status of the users, whether they have successfully "
+"logged in or not."
+msgstr ""
+"Vous laisse voir le statut des utilisateurs. Vous pourrez aussi voir si "
+"l'identification de l'utilisateur a été réussie ou non."
+
+#: views/login-logs.php:126
+#, fuzzy
+msgid ""
+"Allows you to block or whitelist IP Addresses for the logged in users as per "
+"your requirement."
+msgstr ""
+"Ceci vous permet de bloquer ou d'autoriser comme vous voulez les adresses IP "
+"enregistrées comme utilisateurs."
+
+#: views/login-logs.php:146
+msgid "Success"
+msgstr "Réussi"
+
+#: views/login-logs.php:152
+msgid "Failed"
+msgstr "Échoué"
+
+#: views/system-status.php:28
+msgid "Wp Clean Up Optimizer System Status"
+msgstr "Statut du système de Wp Clean Up Optimizer"
+
+#: views/system-status.php:32
+msgid "Get System Report"
+msgstr "Obtenait le rapport du système"
+
+#: views/system-status.php:36
+msgid "Close System Report"
+msgstr "Fermer le rapport de systèmes"
+
+#: views/system-status.php:42
+msgid "Environment"
+msgstr "Environnement"
+
+#: views/system-status.php:48
+msgid "Home URL"
+msgstr "URL de la page accueil"
+
+#: views/system-status.php:56
+msgid "Site URL"
+msgstr "URL du site"
+
+#: views/system-status.php:62
+msgid "WP Version"
+msgstr "Version de WP"
+
+#: views/system-status.php:68
+msgid "WP Multisite Enabled"
+msgstr "Autoriser WP Multisite"
+
+#: views/system-status.php:74
+msgid "Web Server Info"
+msgstr "Informations du serveur "
+
+#: views/system-status.php:80
+msgid "PHP Version"
+msgstr "Version PHP"
+
+#: views/system-status.php:86
+msgid "MySQL Version"
+msgstr "Version MySQL"
+
+#: views/system-status.php:96
+msgid "WP Debug Mode"
+msgstr "Mode debug WP"
+
+#: views/system-status.php:102
+msgid "WP Language"
+msgstr "Langage WP"
+
+#: views/system-status.php:104
+msgid "Default"
+msgstr "Par défaut"
+
+#: views/system-status.php:108
+msgid "PHP Post Max Size"
+msgstr "Taille maximum des postes PHP"
+
+#: views/system-status.php:118
+msgid "WP Max Upload Size"
+msgstr "Taille maximum des fichiers envoyés sur WP"
+
+#: views/system-status.php:134
+msgid "WP Remote Post"
+msgstr "Poste à distance WP"
+
+#: views/system-status.php:151
+msgid "PHP Max Script Execute Time"
+msgstr "Temps d'exécution PHP Max Script"
+
+#: views/system-status.php:157
+msgid "PHP Max Input Vars"
+msgstr "PHP Max Input Vars"
+
+#: views/system-status.php:163
+msgid "SUHOSIN Installed"
+msgstr "SUHOSIN installer"
+
+#: views/system-status.php:170
+msgid "Default Timezone"
+msgstr "Fuseau horaire par défaut"
+
+#: views/system-status.php:223
+msgid "Operating System"
+msgstr "Système d'exploitation"
+
+#: views/system-status.php:231
+msgid "Memory usage"
+msgstr "Mémoire utilisé"
+
+#: views/system-status.php:239
+msgid "SQL Mode"
+msgstr "Mode SQL"
+
+#: views/system-status.php:247
+msgid "PHP Safe Mode"
+msgstr "Mode sécurisé PHP"
+
+#: views/system-status.php:255
+msgid "PHP Allow URL fopen"
+msgstr "Autoriser l'URL fopen PHP"
+
+#: views/system-status.php:263
+msgid "PHP Memory Limit"
+msgstr "Mémoire limite du PHP"
+
+#: views/system-status.php:271
+msgid "PHP Max Post Size"
+msgstr "Taille maximum des postes PHP"
+
+#: views/system-status.php:279
+msgid "PCRE Backtracking Limit"
+msgstr "Limite de Backtracking PCRE"
+
+#: views/system-status.php:287
+msgid "PHP Exif support"
+msgstr "Support Php Exif"
+
+#: views/system-status.php:295
+msgid "PHP IPTC support"
+msgstr "Support PHP IPTC"
+
+#: views/system-status.php:303
+msgid "PHP XML support"
+msgstr "Support PHP XML"
+
+#: views/system-status.php:316
+msgid "Plugins"
+msgstr "Extension"
+
+#: views/system-status.php:320
+msgid "Installed Plugins"
+msgstr "Extension installée"
+
+#: views/system-status.php:381
+msgid "Themes"
+msgstr "Thèmes"
+
+#: views/system-status.php:385
+msgid "Theme Name"
+msgstr "Nom du thème"
+
+#: views/system-status.php:391
+msgid "Theme Version"
+msgstr "Version du thème"
+
+#: views/system-status.php:401
+msgid "Author URL"
+msgstr "URL de l'auteur"
+
+#: wp-cleanup-optimizer.php:304
+msgid "View WP Clean Up Optimzier Documentation"
+msgstr "Voir la documentation WP Clean Up Optimzier"
+
+#: wp-cleanup-optimizer.php:304
+msgid "Docs"
+msgstr "Documentation"
+
+#: wp-cleanup-optimizer.php:305
+#, fuzzy
+msgid "View WP Clean Up Optimzier Premium Editions"
+msgstr "Voir la documentation WP Clean Up Optimzier"
+
+#: wp-cleanup-optimizer.php:305
+msgid "Go for Premium!"
+msgstr "Go for Premium!"
+
+#~ msgid "Renew Premium Support"
+#~ msgstr "Renouveler votre support Premium"
+
+#~ msgid "Licensing"
+#~ msgstr "Licence"
+
+#~ msgid "Scheduler has been Deleted!"
+#~ msgstr "La programmation a été effacée!"
+
+#~ msgid "Are you sure, you want to Perform this action?"
+#~ msgstr "Êtes-vous sûrs de vouloir effectuer cette action ?"
+
+#~ msgid "Schedulers has been Deleted!"
+#~ msgstr "La programmation a été effacée!"
+
+#~ msgid "Please choose Action and Scheduler to Proceed!"
+#~ msgstr "Merci de choisir l'action et la programmation à effectuer"
+
+#~ msgid "Moderated Comments"
+#~ msgstr "Modérée des commentaires"
+
+#~ msgid "Manage Wp Data Optimizer Schedules"
+#~ msgstr "Gérer la programmation de Wp Data Optimizer"
+
+#~ msgid "Auto Draft<br>"
+#~ msgstr "Brouillon automatique<br>"
+
+#~ msgid "Dashboard Transient Feed<br>"
+#~ msgstr "Tableau de bord des transitions de plus"
+
+#~ msgid "Draft<br>"
+#~ msgstr "Brouillon<br>"
+
+#~ msgid "Moderated Comments<br>"
+#~ msgstr "Commentaire gérés<br>"
+
+#~ msgid "Orphan Comments Meta<br>"
+#~ msgstr "Commentaire orphelin Méta<br>"
+
+#~ msgid "Orphan Posts Meta<br>"
+#~ msgstr "Poste orphelin Méta<br> "
+
+#~ msgid "Orphan Relationships<br>"
+#~ msgstr "Orphelin en relation<br> "
+
+#~ msgid "Revision<br>"
+#~ msgstr "Révision<br>"
+
+#~ msgid "Remove Pingbacks<br>"
+#~ msgstr "Enlever Pingbacks<br>"
+
+#~ msgid "Remove Transient Options<br>"
+#~ msgstr "Enlever les options de transition<br>"
+
+#~ msgid "Remove Trackbacks<br>"
+#~ msgstr "EnleverTrackbacks<br>"
+
+#~ msgid "Spam Comments<br>"
+#~ msgstr "Commentaires spams<br> "
+
+#~ msgid "Trash Comments<br>"
+#~ msgstr "Corbeille des commentaire<br> "
+
+#~ msgid "Scheduler Type"
+#~ msgstr "Programmation type"
+
+#~ msgid "Are you sure, you want to save the Scheduler?"
+#~ msgstr "Êtes-vous sûrs de vouloir sauvegarder la programmation?"
+
+#~ msgid "Scheduler has been Saved!"
+#~ msgstr "La programmation a été sauvegardée!"
+
+#~ msgid "Please choose type of Data and Action to Configure Scheduler!"
+#~ msgstr ""
+#~ "Merci de choisir le type de données et d'action pour configurer la "
+#~ "programmation!"
+
+#~ msgid "Are you sure, you want to Delete this Scheduler?"
+#~ msgstr "Êtes-vous sûrs de vouloir effacer la programmation ?"
+
+#~ msgid "Deleted Successfully!"
+#~ msgstr "Effaçage je réussis!"
+
+#~ msgid "Optimized Successfully!"
+#~ msgstr "Optimisation réussie!"
+
+#~ msgid "Repaired Successfully!"
+#~ msgstr "Réparation réussis"
+
+#~ msgid "Please choose Tables and Action to configure Scheduler!"
+#~ msgstr ""
+#~ "Merci de choisir le tableau et l'action de configuration de la "
+#~ "programmation!"
+
+#~ msgid "Please enter valid IP Range."
+#~ msgstr "Merci d'enregistrer une gamme d'adresses IP valide."
+
+#~ msgid ""
+#~ "IP Address cannnot be duplicate. Please enter Start IP Address and End IP "
+#~ "Address different!"
+#~ msgstr ""
+#~ "Les adresses IP ne peuvent pas être dupliquées. Merci d'entrer un début "
+#~ "d'adresse IP et une fIN d'adresse IP différentes!"
+
+#~ msgid "Start Range cannot be greater than End Range."
+#~ msgstr "La gamme de début ne peut pas être plus grande que la gamme de fin."
+
+#~ msgid ""
+#~ "IP Address Range cannnot be duplicate. Please enter different IP "
+#~ "addresses."
+#~ msgstr ""
+#~ "La gamme des adresses IP ne peut pas être dupliquée. Merci d'entrer des "
+#~ "adresses IP différentes"
+
+#~ msgid "Please enter valid IP Address"
+#~ msgstr "Merci d'entrer une adresse IP valide."
+
+#~ msgid "IP Address cannnot be duplicate. Please enter different IP address"
+#~ msgstr ""
+#~ "Les adresses IP ne peuvent pas être dupliquées. Merci d'entrer des "
+#~ "adresses IP différentes"
+
+#~ msgid ""
+#~ "You have Exceeded Maximum Login Attempts.<br>So, your IP has been blocked "
+#~ "for today.<br>Kindly, try again after 24 Hours."
+#~ msgstr ""
+#~ "Vous avez dépassé le maximum de tentatives d'identification. <br>Votre "
+#~ "adresse IP sera bloquée pour aujourd'hui.<br> Merci de réessayer dans 24 "
+#~ "heures."
+
+#~ msgid "WP Clean Up Optimizer Licensing Module"
+#~ msgstr "Module de licence WP Clean Up Optimizer "
+
+#~ msgid "Version"
+#~ msgstr "Version"
+
+#~ msgid "URL"
+#~ msgstr "URL"
+
+#~ msgid "API Key"
+#~ msgstr "Que les API"
+
+#~ msgid "Order ID"
+#~ msgstr "Ordre ID"
+
+#~ msgid "Update"
+#~ msgstr "Mise à jour"
+
+#~ msgid "Success! License has been validated."
+#~ msgstr "Action réussie! La licence a été validée."
+
+#~ msgid "Whitelist IP Address"
+#~ msgstr "Adresse IP autorisée"
