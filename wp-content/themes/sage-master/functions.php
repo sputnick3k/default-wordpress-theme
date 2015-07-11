@@ -9,6 +9,10 @@
  *
  * @link https://github.com/roots/sage/pull/1042
  */
+ 
+// THUMBNAIL SIZES
+// add_image_size( 'home',  2500, 9999 ); // HOME IMAGE
+ 
 $sage_includes = [
   'lib/utils.php',                 // Utility functions
   'lib/init.php',                  // Initial theme setup and constants
@@ -28,3 +32,4 @@ foreach ($sage_includes as $file) {
   require_once $filepath;
 }
 unset($file, $filepath);
+
