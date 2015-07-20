@@ -35,3 +35,8 @@ unset($file, $filepath);
 
 // Register Custom Navigation Walker
 require_once('wp_bootstrap_navwalker.php');
+
+// INCLUDED FUNCTIONS
+include( get_template_directory() . '/functions-lib/widgets/widget-contact.php' );
+include( get_template_directory() . '/functions-lib/widgets/widget-email-sign-up.php' );
+include( get_template_directory() . '/functions-lib/widgets/widget-featured-posts.php' );
