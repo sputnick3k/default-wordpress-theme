@@ -12,7 +12,19 @@
  
 // THUMBNAIL SIZES
 // add_image_size( 'home',  2500, 9999 ); // HOME IMAGE
- 
+
+// FUNCTIONS
+$func_includes = [
+	'navwalker/wp_bootstrap_navwalker.php',
+	// 'widgets/widget-contact.php',
+	//'widgets/widget-email-sign-up.php',
+	//'widgets/widget-featured-posts.php',
+];
+
+foreach ($func_includes as &$path) {
+	include( get_template_directory() . '/lib/_functions/' . $path );
+}
+
 $sage_includes = [
   'lib/utils.php',                 // Utility functions
   'lib/init.php',                  // Initial theme setup and constants
@@ -32,11 +44,3 @@ foreach ($sage_includes as $file) {
   require_once $filepath;
 }
 unset($file, $filepath);
-
-// Register Custom Navigation Walker
-require_once('wp_bootstrap_navwalker.php');
-
-// INCLUDED FUNCTIONS
-include( get_template_directory() . '/functions-lib/widgets/widget-contact.php' );
-include( get_template_directory() . '/functions-lib/widgets/widget-email-sign-up.php' );
-include( get_template_directory() . '/functions-lib/widgets/widget-featured-posts.php' );
