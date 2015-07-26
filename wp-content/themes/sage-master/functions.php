@@ -16,6 +16,7 @@
 // FUNCTIONS
 $func_includes = [
 	'navwalker/wp_bootstrap_navwalker.php',
+	'functions-custom.php'
 	// 'widgets/widget-contact.php',
 	//'widgets/widget-email-sign-up.php',
 	//'widgets/widget-featured-posts.php',
