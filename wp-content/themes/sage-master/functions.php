@@ -22,7 +22,7 @@ $func_includes = [
 ];
 
 foreach ($func_includes as &$path) {
-	include( get_template_directory() . '/lib/_functions/' . $path );
+	require_once(get_template_directory() . '/lib/_functions/' . $path);
 }
 
 $sage_includes = [
