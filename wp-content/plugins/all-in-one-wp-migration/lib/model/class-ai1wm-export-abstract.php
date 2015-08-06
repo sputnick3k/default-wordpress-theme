@@ -408,6 +408,7 @@ abstract class Ai1wm_Export_Abstract {
 		// Resolve domain
 		$url      = admin_url( 'admin-ajax.php?action=ai1wm_export' );
 		$hostname = parse_url( $url, PHP_URL_HOST );
+		$port     = parse_url( $url, PHP_URL_PORT );
 		$ip       = gethostbyname( $hostname );
 
 		// Could not resolve host
@@ -431,7 +432,11 @@ abstract class Ai1wm_Export_Abstract {
 			$url = preg_replace( sprintf( '/%s/', preg_quote( $hostname, '-' ) ), $ip, $url, 1 );
 
 			// Set host header
-			$headers['Host'] = $hostname;
+			if ( ! empty( $port ) ) {
+				$headers['Host'] = sprintf( '%s:%s', $hostname, $port );
+			} else {
+				$headers['Host'] = sprintf( '%s', $hostname );
+			}
 		}
 
 		// HTTP request
