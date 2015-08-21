@@ -187,7 +187,7 @@ else
 		</div>
 	</div>
 	<script type="text/javascript">
-		jQuery(".hovertip").tooltip({placement: "right"});
+		jQuery(".hovertip").tooltip_tip({placement: "right"});
 		jQuery(document).ready(function()
 		{
 			jQuery('#ux_txt_start_date').datepicker({

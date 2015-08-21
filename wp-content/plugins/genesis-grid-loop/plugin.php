@@ -3,7 +3,7 @@
  * Plugin Name: Genesis Grid
  * Plugin URI: https://github.com/billerickson/Genesis-Grid-Plugin
  * Description: Use a Grid Loop for sections of your site
- * Version: 1.4
+ * Version: 1.4.1
  * Author: Bill Erickson
  * Author URI: http://www.billerickson.net
  * Text Domain: genesis-grid
@@ -258,7 +258,9 @@ class BE_Genesis_Grid {
 		$grid_args = $this->be_grid_loop_pagination();
 		if( ! $grid_args )
 			return;
-	
+		if ( -1 === $wp_query->query_vars[posts_per_page] )
+			return;
+
 		$max = ceil ( ( $wp_query->found_posts - $grid_args['features_on_front'] - $grid_args['teasers_on_front'] ) / ( $grid_args['features_inside'] + $grid_args['teasers_inside'] ) ) + 1;
 		$wp_query->max_num_pages = $max;
 		

@@ -2,8 +2,8 @@
 Contributors: contact-banker, Gallery-Bank
 Tags: admin, AJAX, automatic, clean, clean up, clean up optimizer, cleaner, cleanup, comments, cron, cron jobs, database, database optimize, database size, delete, delete revision, meta, multisite, mysql, optimize, optimize database, optimizer, page, pages, phpMyAdmin, plugin, Post, post revisions, postmeta, posts, responsive, Revision, revisions, schedule, scheduler, spam, spammed, track user, tracking, transients, trash, trashed, unused tags, wordpress, wp clean up, wp cleaner, wp cleanup, wp cleanup optimizer
 Requires at least: 2.7
-Tested up to: 4.2.4
-Stable Tag: 2.0.47
+Tested up to: 4.3
+Stable Tag: 2.0.49
 License: GPLv3
 License URI: http://www.gnu.org/licenses/gpl-3.0.html
 
@@ -513,6 +513,15 @@ Once you click on the link, this page would open and there you could see Cthe st
 13. Licensing Page.
 
 == Changelog ==
+
+= 2.0.49 =
+
+* Few Bugs Fixed
+* Compatibility with 4.3
+
+= 2.0.48 =
+
+* Few Bugs Fixed
 
 = 2.0.47 =
 

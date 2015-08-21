@@ -26,7 +26,7 @@
   * =============================== */
 
   var Tooltip = function (element, options) {
-    this.init('tooltip', element, options)
+    this.init('tooltip_tip', element, options)
   }
 
   Tooltip.prototype = {
@@ -152,7 +152,7 @@
       var $tip = this.tip()
         , title = this.getTitle()
 
-      $tip.find('.tooltip-inner')[this.options.html ? 'html' : 'text'](title)
+      $tip.find('.tooltip_tip-inner')[this.options.html ? 'html' : 'text'](title)
       $tip.removeClass('fade in top bottom left right')
     }
 
@@ -248,25 +248,25 @@
  /* TOOLTIP PLUGIN DEFINITION
   * ========================= */
 
-  var old = $.fn.tooltip
+  var old = $.fn.tooltip_tip
 
-  $.fn.tooltip = function ( option ) {
+  $.fn.tooltip_tip = function ( option ) {
     return this.each(function () {
       var $this = $(this)
-        , data = $this.data('tooltip')
+        , data = $this.data('tooltip_tip')
         , options = typeof option == 'object' && option
-      if (!data) $this.data('tooltip', (data = new Tooltip(this, options)))
+      if (!data) $this.data('tooltip_tip', (data = new Tooltip(this, options)))
       if (typeof option == 'string') data[option]()
     })
   }
 
-  $.fn.tooltip.Constructor = Tooltip
+  $.fn.tooltip_tip.Constructor = Tooltip
 
-  $.fn.tooltip.defaults = {
+  $.fn.tooltip_tip.defaults = {
     animation: true
   , placement: 'top'
   , selector: false
-  , template: '<div class="tooltip"><div class="tooltip-arrow"></div><div class="tooltip-inner"></div></div>'
+  , template: '<div class="tooltip_tip"><div class="tooltip_tip-arrow"></div><div class="tooltip_tip-inner"></div></div>'
   , trigger: 'hover'
   , title: ''
   , delay: 0
@@ -277,8 +277,8 @@
  /* TOOLTIP NO CONFLICT
   * =================== */
 
-  $.fn.tooltip.noConflict = function () {
-    $.fn.tooltip = old
+  $.fn.tooltip_tip.noConflict = function () {
+    $.fn.tooltip_tip = old
     return this
   }
 
