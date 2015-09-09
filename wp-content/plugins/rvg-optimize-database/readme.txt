@@ -7,9 +7,9 @@ Tags: database, delete, revisions, optimize, post, posts, page, pages, clean, cl
 Author URI: http://cagewebdev.com
 Author: CAGE Web Design | Rolf van Gelder, Eindhoven, The Netherlands
 Requires at least: 2.8
-Tested up to: 4.2.2
-Stable tag: 3.4.6
-Version: 3.4.6
+Tested up to: 4.3
+Stable tag: 3.4.7
+Version: 3.4.7
 License: GPLv2 or later
 
 == Description ==
@@ -46,7 +46,7 @@ Note: you also can click the 'Optimize DB (1 click)' link in the admin bar (if e
 * If you run the plugin from any of the sites, it will cleanup ALL the sites in the network!
 
 = Supported languages =
-* Danish [da_DK] - translated by Alexander Leo-Hansen
+* Danish [da_DK] - translated by Alexander Leo-Hansen - http://alexanderleohansen.dk
 * Dutch [nl_NL] - translated by Rolf van Gelder, CAGE Web Design - http://cagewebdev.com
 * English [en_US] - translated by Rolf van Gelder, CAGE Web Design - http://cagewebdev.com
 * German [de_DE] - translated by the.mnbvcx
@@ -86,6 +86,9 @@ http://cagewebdev.com/index.php/wordpress-plugins/
 * If you run the plugin from any of the sites, it will cleanup ALL the sites in the network!
 
 == Changelog ==
+= 3.4.7 [08/30/2015] =
+* BUG FIX: Transients are now deleted using the delete_transient() / delete_site_transient() functions
+
 = 3.4.6 [06/21/2015] =
 * NEW: Danish translation (da_DK) added
 

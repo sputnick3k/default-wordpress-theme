@@ -1,7 +1,7 @@
 <?php
 /**
  * @package Optimize Database after Deleting Revisions
- * @version 3.4.6
+ * @version 3.4.7
  */
 /*
 Plugin Name: Optimize Database after Deleting Revisions
@@ -9,11 +9,11 @@ Plugin URI: http://cagewebdev.com/index.php/optimize-database-after-deleting-rev
 Description: Optimizes the Wordpress Database after Cleaning it out
 Author: CAGE Web Design | Rolf van Gelder, Eindhoven, The Netherlands
 Author URI: http://cagewebdev.com
-Version: 3.4.6
+Version: 3.4.7
 */
 
-$odb_version      = '3.4.6';
-$odb_release_date = '06/21/2015';
+$odb_version      = '3.4.7';
+$odb_release_date = '08/30/2015';
 
 // v3.3 - MULTISITE
 $odb_ms_prefixes  = array();
@@ -520,24 +520,14 @@ if($rvg_odb_logging_on == 'Y')  $rvg_odb_logging_on_checked  = ' checked="checke
         <p class="odb-bold">'<span class="odb-italic">Optimize Database after Deleting Revisions</span> '
           <?php _e('is an one-click plugin to clean and optimize your WordPress database','rvg-optimize-database');?>
         </p>
-        <p>
-          <?php _e('Plugin version:','rvg-optimize-database');?>
-          <br />
-          <span class="odb-bold">v<?php echo $odb_version ?> (<?php echo $odb_release_date?>)</span></p>
-        <p><span class="odb-bold">
-          <?php _e('Author:','rvg-optimize-database');?>
-          </span><br />
-          <span class="odb-bold"><a href="http://cagewebdev.com/" target="_blank">CAGE Web Design</a> | <a href="http://rvg.cage.nl/" target="_blank">Rolf van Gelder</a></span>, Eindhoven,
-          <?php _e('The Netherlands','rvg-optimize-database');?>
-          <br />
-          <span class="odb-bold">
-          <?php _e('Plugin URL:','rvg-optimize-database');?>
-          </span><br />
-          <a href="http://cagewebdev.com/index.php/optimize-database-after-deleting-revisions-wordpress-plugin/" target="_blank"><span class="odb-bold">http://cagewebdev.com/index.php/optimize-database-after-deleting-revisions-wordpress-plugin/</span></a><br />
-          <span class="odb-bold">
-          <?php _e('Download URL:','rvg-optimize-database');?>
-          </span><br />
-          <span class="odb-bold"><a href="https://wordpress.org/plugins/rvg-optimize-database/" target="_blank">https://wordpress.org/plugins/rvg-optimize-database/</a></span></p>
+        <span class="odb-bold">
+		  <?php _e( 'Plugin version', 'rvg-optimize-database' ); ?>: v<?php echo $odb_version?> [<?php echo $odb_release_date?>] - <a href="http://cagewebdev.com/index.php/optimize-database-after-deleting-revisions-wordpress-plugin/" target="_blank">
+          <?php _e( 'Plugin page', 'rvg-optimize-database' ); ?></a> - <a href="http://wordpress.org/plugins/rvg-optimize-database/" target="_blank">
+          <?php _e( 'Download page', 'rvg-optimize-database' ); ?></a> - <a href="http://rvg.cage.nl/" target="_blank">
+          <?php _e( 'Author', 'rvg-optimize-database' ); ?></a> - <a href="http://cagewebdev.com/" target="_blank">
+          <?php _e( 'Company', 'rvg-optimize-database' ); ?></a> - <a href="http://cagewebdev.com/index.php/donations-odb/" target="_blank">
+          <?php _e( 'Donation page', 'rvg-optimize-database' ); ?></a><br />
+        </span>
       </div>
       <div id="odb-options-settings">
         <div class="odb-title-bar">
@@ -713,7 +703,7 @@ if($rvg_odb_logging_on == 'Y')  $rvg_odb_logging_on_checked  = ' checked="checke
  ********************************************************************************************/
 function rvg_optimize_db()
 {
-	global $wpdb, $odb_version, $odb_ms_prefixes;
+	global $wpdb, $odb_version, $odb_release_date, $odb_ms_prefixes;
 
 	// v3.3 - GET NETWORK INFORMATION (MULTISITE)
 	rvg_odb_network_info();
@@ -835,49 +825,43 @@ function rvg_optimize_db()
 		if($_REQUEST['action'] == "delete_log")
 			echo '<div class="updated odb-updated"><p><span class="odb-bold">Optimize Database after Deleting Revisions - LOG FILE DELETED</span></p></div>';
 ?>
-  <p><span class="odb-italic"><a href="http://cagewebdev.com/index.php/optimize-database-after-deleting-revisions-wordpress-plugin/" target="_blank" class="odb-bold">Optimize Database after Deleting Revisions v<?php echo $odb_version?></a> -
-    <?php _e('A WordPress Plugin by','rvg-optimize-database');?>
-    <a href="http://cagewebdev.com/" target="_blank" class="odb-bold">CAGE Web Design</a> | <a href="http://rvg.cage.nl/" target="_blank" class="odb-bold">Rolf van Gelder</a>, Eindhoven,
-    <?php _e('The Netherlands','rvg-optimize-database');?>
-    </span></p>
   <p>
-    <?php _e('Current settings','rvg-optimize-database');?>
-    :<br />
     <span class="odb-bold">
-    <?php _e('Maximum number of - most recent - revisions to keep per post / page','rvg-optimize-database');?>
-    :</span> <span class="odb-bold odb-blue"><?php echo $max_revisions?></span><br />
+      <?php _e( 'Plugin version', 'rvg-optimize-database' ); ?>: v<?php echo $odb_version?> [<?php echo $odb_release_date?>] - <a href="http://cagewebdev.com/index.php/optimize-database-after-deleting-revisions-wordpress-plugin/" target="_blank">
+      <?php _e( 'Plugin page', 'rvg-optimize-database' ); ?></a> - <a href="http://wordpress.org/plugins/rvg-optimize-database/" target="_blank">
+      <?php _e( 'Download page', 'rvg-optimize-database' ); ?></a> - <a href="http://rvg.cage.nl/" target="_blank">
+      <?php _e( 'Author', 'rvg-optimize-database' ); ?></a> - <a href="http://cagewebdev.com/" target="_blank">
+      <?php _e( 'Company', 'rvg-optimize-database' ); ?></a> - <a href="http://cagewebdev.com/index.php/donations-odb/" target="_blank">
+      <?php _e( 'Donation page', 'rvg-optimize-database' ); ?></a><br />
+    </span>  
+  </p>
+  <p>
+    <?php _e('Current settings','rvg-optimize-database');?>:<br />
     <span class="odb-bold">
-    <?php _e('Delete trashed items','rvg-optimize-database');?>
-    :</span> <span class="odb-bold odb-blue"><?php echo $clear_trash_yn?></span><br />
+    <?php _e('Maximum number of - most recent - revisions to keep per post / page','rvg-optimize-database');?>:</span> <span class="odb-bold odb-blue"><?php echo $max_revisions?></span><br />
     <span class="odb-bold">
-    <?php _e('Delete spammed items','rvg-optimize-database');?>
-    :</span> <span class="odb-bold odb-blue"><?php echo $clear_spam_yn?></span><br />
+    <?php _e('Delete trashed items','rvg-optimize-database');?>:</span> <span class="odb-bold odb-blue"><?php echo $clear_trash_yn?></span><br />
     <span class="odb-bold">
-    <?php _e('Delete unused tags','rvg-optimize-database');?>
-    :</span> <span class="odb-bold odb-blue"><?php echo $clear_tags_yn?></span><br />
+    <?php _e('Delete spammed items','rvg-optimize-database');?>:</span> <span class="odb-bold odb-blue"><?php echo $clear_spam_yn?></span><br />
     <span class="odb-bold">
-    <?php _e('Delete expired transients','rvg-optimize-database');?>
-    :</span> <span class="odb-bold odb-blue"><?php echo $clear_transients_yn?></span><br />
+    <?php _e('Delete unused tags','rvg-optimize-database');?>:</span> <span class="odb-bold odb-blue"><?php echo $clear_tags_yn?></span><br />
     <span class="odb-bold">
-    <?php _e('Delete pingbacks and trackbacks','rvg-optimize-database');?>
-    :</span> <span class="odb-bold odb-blue"><?php echo $clear_pingbacks_yn?></span><br />
+    <?php _e('Delete expired transients','rvg-optimize-database');?>:</span> <span class="odb-bold odb-blue"><?php echo $clear_transients_yn?></span><br />
     <span class="odb-bold">
-    <?php _e('Keep a log','rvg-optimize-database');?>
-    :</span> <span class="odb-bold odb-blue"><?php echo $rvg_odb_logging_on_yn?></span><br />
+    <?php _e('Delete pingbacks and trackbacks','rvg-optimize-database');?>:</span> <span class="odb-bold odb-blue"><?php echo $clear_pingbacks_yn?></span><br />
     <span class="odb-bold">
-    <?php _e('Number of excluded tables','rvg-optimize-database');?>
-    :</span> <span class="odb-bold odb-blue"><?php echo $number_excluded?></span><br />
+    <?php _e('Keep a log','rvg-optimize-database');?>:</span> <span class="odb-bold odb-blue"><?php echo $rvg_odb_logging_on_yn?></span><br />
     <span class="odb-bold">
-    <?php _e('Scheduler','rvg-optimize-database');?>
-    :</span> <span class="odb-bold odb-blue"><?php echo $rvg_odb_schedule_txt?></span>
+    <?php _e('Number of excluded tables','rvg-optimize-database');?>:</span> <span class="odb-bold odb-blue"><?php echo $number_excluded?></span><br />
+    <span class="odb-bold">
+    <?php _e('Scheduler','rvg-optimize-database');?>:</span> <span class="odb-bold odb-blue"><?php echo $rvg_odb_schedule_txt?></span>
     <?php
 	if($nextrun)
 	{
 ?>
     <br />
     <span class="odb-bold">
-    <?php _e('Next scheduled run','rvg-optimize-database');?>
-    :</span> <span class="odb-bold odb-blue"><?php echo $nextrun?> hrs (current server time: <?php echo $current_hour?>)</span>
+    <?php _e('Next scheduled run','rvg-optimize-database');?>:</span> <span class="odb-bold odb-blue"><?php echo $nextrun?> hrs (current server time: <?php echo $current_hour?>)</span>
     <?php		
 	}
 	if($total_savings)
@@ -885,8 +869,7 @@ function rvg_optimize_db()
 ?>
     <br />
     <span class="odb-bold">
-    <?php _e('Total savings since the first run','rvg-optimize-database');?>
-    :</span> <span class="odb-bold odb-blue"><?php echo rvg_format_size($total_savings); ?></span>
+    <?php _e('Total savings since the first run','rvg-optimize-database');?>:</span> <span class="odb-bold odb-blue"><?php echo rvg_format_size($total_savings); ?></span>
     <?php
 	}
     ?>
@@ -1700,13 +1683,14 @@ function rvg_delete_tags_is_scheduled($term_id, $odb_prefix)
  *
  *	DELETE EXPIRED TRANSIENTS
  *	
- *	v3.2: MULTISITE	
+ *	v3.2: MULTISITE
+ *	v3.4.7: from now on it uses the delete_transient() and delete_site_transients() functions
  *
  ********************************************************************************************/
 function rvg_delete_transients()
 {
 	global $wpdb, $odb_ms_prefixes;
-	
+
 	$delay = time() - 60;	// ONE MINUTE DELAY
 
 	$total_deleted = 0;
@@ -1714,34 +1698,9 @@ function rvg_delete_transients()
 	// LOOP THROUGH THE NETWORK
 	for($i=0; $i<count($odb_ms_prefixes); $i++)
 	{
+		// FIND EXPIRED TRANSIENTS
 		$sql = "
-		SELECT *
-		FROM ".$odb_ms_prefixes[$i]."options
-		WHERE (
-			option_name LIKE '_transient_timeout_%'
-			OR option_name LIKE '_site_transient_timeout_%'
-			OR option_name LIKE 'displayed_galleries_%'
-		)
-		AND option_value < '$delay'
-		";
-	
-		$results = $wpdb->get_results($sql);
-		$total_deleted = count($results);
-	
-		$sql = "
-		DELETE FROM ".$odb_ms_prefixes[$i]."options
-		WHERE (
-			option_name LIKE '_transient_timeout_%'
-			OR option_name LIKE '_site_transient_timeout_%'
-			OR option_name LIKE 'displayed_galleries_%'
-		)
-		AND option_value < '$delay'
-		";
-	
-		$wpdb->get_results($sql);
-		
-		$sql = "
-		SELECT *
+		SELECT `option_name`
 		FROM ".$odb_ms_prefixes[$i]."options
 		WHERE (
 			option_name LIKE '_transient_timeout_%'
@@ -1752,19 +1711,25 @@ function rvg_delete_transients()
 		
 		$results = $wpdb->get_results($sql);
 		$total_deleted += count($results);
-	
-		$sql = "
-		DELETE FROM ".$odb_ms_prefixes[$i]."options
-		WHERE (
-			option_name LIKE '_transient_timeout_%'
-			OR option_name LIKE '_site_transient_timeout_%'
-		)
-		AND option_value < '$delay'	
-		";
 		
-		$wpdb->get_results($sql);
-	}
-
+		// LOOP THROUGH THE RESULTS
+		for($i=0; $i<count($results); $i++)
+		{
+			if(substr($results[$i]->option_name, 0, 19) == '_transient_timeout_')
+			{	// _transient_timeout_%
+				$transient = substr($results[$i]->option_name, 19);
+				// DELETE THE TRANSIENT
+				delete_transient($transient);					
+			}
+			else
+			{	// _site_transient_timeout_%
+				$transient = substr($results[$i]->option_name, 24);
+				// DELETE THE TRANSIENT
+				delete_site_transient($transient);				
+			}			
+		} // for($i=0; $i<count($results); $i++)
+		
+	} // for($i=0; $i<count($odb_ms_prefixes); $i++)
 	return $total_deleted;
 } // rvg_delete_transients()
 

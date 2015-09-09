@@ -3,7 +3,7 @@ Contributors: Backup with UpdraftPlus, DavidAnderson
 Tags: backup, backups, restore, amazon backup, s3 backup, dropbox backup, google drive backup, rackspace cloud files, rackspace backup, dreamhost, dreamobjects backup, ftp backup, webdav backup, google cloud storage, onedrive, microsoft one drive, back up, multisite, restoration, sftp backup, ftps, scp backup, migrate, duplicate, copy, mysql backup, database backup, db backups, website backup, wordpress backup, full backup, openstack backup, sicherung
 Requires at least: 3.2
 Tested up to: 4.3
-Stable tag: 1.11.4
+Stable tag: 1.11.9
 Author URI: https://updraftplus.com
 Donate link: http://david.dw-perspective.org.uk/donate
 License: GPLv3 or later
@@ -16,7 +16,7 @@ Backup and restoration made easy. Complete backups; manual or scheduled (backup 
 
 <strong>Top-quality:</strong> UpdraftPlus is the <a href="http://rankwp.com/plugins/updraftplus">highest-ranking backup plugin on wordpress.org</a> (ranks in the top 40 out of over 30,000 WordPress plugins for quality on rankwp.com).
 
-<strong>Over half a million currently active installs:</strong> widely tested and reliable (over 2.7 million downloads). The #1 most installed scheduled backup plugin, according to wordpress.org. Millions of backups completed!
+<strong>Over half a million currently active installs:</strong> widely tested and reliable (over 2.9 million downloads). The #1 most installed scheduled backup plugin, according to wordpress.org. Millions of backups completed!
 
 * Supports WordPress backups to UpdraftPlus Vault, Amazon S3 (or compatible), Dropbox, Rackspace Cloud Files, Google Drive, Google Cloud Storage, DreamHost DreamObjects, FTP, OpenStack (Swift) and email. Also (via a paid add-on) backup to Microsoft OneDrive, Copy.Com, FTP over SSL, SFTP, SCP, and WebDAV (and compatible services, e.g. Yandex, Cubby). Examples of S3-compatible providers: Cloudian, Connectria, Constant, Eucalyptus, Nifty, Nimbula, Cloudn.
 * Quick restore (both file and database backups)
@@ -118,7 +118,25 @@ Thanks for asking; yes, we've got a few. Check out this profile page - https://p
 
 The <a href="https://updraftplus.com/news/">UpdraftPlus backup blog</a> is the best place to learn in more detail about any important changes.
 
-N.B. Paid versions of UpdraftPlus Backup / Restore have a version number which is 1 higher in the first digit, and has an extra component on the end, but the changelog below still applies. i.e. changes listed for 1.11.4 of the free version correspond to changes made in 2.11.4.x of the paid version.
+N.B. Paid versions of UpdraftPlus Backup / Restore have a version number which is 1 higher in the first digit, and has an extra component on the end, but the changelog below still applies. i.e. changes listed for 1.11.9 of the free version correspond to changes made in 2.11.9.x of the paid version.
+
+= 1.11.9 - 04/Sep/2015 =
+
+* FIX: Dropbox introduced an un-documented, un-announced change to their server, which caused new site authentications in UpdraftPlus to no longer work. Now fixed with this release.
+* FIX: If backing up multiple extra directories under "more files", if large directories required a resumption, then inclusion of the files multiple times in the backup was possible.
+* TWEAK: Tweak the auto-split algorithm to not avoid firing in a particular case (that relies on a sequence of unlikely I/O events, seen on GoDaddy) if there's no resumption scheduled
+* TWEAK: Add mysql.sql to the (changeable) default configuration for excludes from wp-content - on WP Engine this is an unreadable file that they create that thus produces a backup warning
+* TWEAK: Add a dashboard warning (+ link to documentation) if UD appears to be incompletely installed
+* TWEAK: Add UPDRAFTPLUS_WEBDAV_NEVER_CHUNK constant for WebDAV servers that return the wrong error code when chunking fails
+* TWEAK: Introduce a UPDRAFTPLUS_REMOTESEND_DEFAULT_CHUNK_BYTES constant allowing the over-riding of the remote-send (Migrator) starting chunk size in wp-config.php (expert users)
+* TWEAK: Add CSS classes to dashboard updates notices, so that people can hide them more easily if they wish
+* TWEAK: If gzopen() is disabled, then test binzip without trying to use PclZip to verify the results
+* TWEAK: Add work-around for PHP bug https://bugs.php.net/bug.php?id=62852
+
+= 1.11.6 - 22/Aug/2015 =
+
+* FIX: phpseclib fix relating to generation of random numbers on some systems (affecting SFTP on some systems)
+* FIX: 1.11.5 release had wrong version number in header for paying users; corrected with fresh release
 
 = 1.11.4 - 19/Aug/2015 =
 
@@ -1617,4 +1635,4 @@ We recognise and thank the following for code and/or libraries used and/or modif
 
 
 == Upgrade Notice ==
-* 1.11.4 : Small tweaks and fixes.
+* 1.11.9 : Fix for undocumented change at Dropbox.Com that began preventing authorising new WP sites, plus a few others

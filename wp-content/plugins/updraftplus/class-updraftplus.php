@@ -1019,7 +1019,7 @@ class UpdraftPlus {
 					} else {
 						// PclZip will die() if gzopen is not found
 						// Obviously, this is a kludge - we assume it's working. We could, of course, just return false - but since we already know now that PclZip can't work, that only leaves ZipArchive
-						$updraftplus->log("gzopen function not found; PclZip cannot be invoked; will assume that binary zip works if we have a non-zero file");
+						$this->log("gzopen function not found; PclZip cannot be invoked; will assume that binary zip works if we have a non-zero file");
 						if (filesize($updraft_dir.'/binziptest/test.zip') > 0) {
 							$found_first = true;
 							$found_second = true;
