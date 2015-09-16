@@ -1,7 +1,7 @@
 <?php
 /**
  * @package Optimize Database after Deleting Revisions
- * @version 3.4.7
+ * @version 3.4.8
  */
 /*
 Plugin Name: Optimize Database after Deleting Revisions
@@ -9,11 +9,11 @@ Plugin URI: http://cagewebdev.com/index.php/optimize-database-after-deleting-rev
 Description: Optimizes the Wordpress Database after Cleaning it out
 Author: CAGE Web Design | Rolf van Gelder, Eindhoven, The Netherlands
 Author URI: http://cagewebdev.com
-Version: 3.4.7
+Version: 3.4.8
 */
 
-$odb_version      = '3.4.7';
-$odb_release_date = '08/30/2015';
+$odb_version      = '3.4.8';
+$odb_release_date = '09/14/2015';
 
 // v3.3 - MULTISITE
 $odb_ms_prefixes  = array();
@@ -1713,21 +1713,21 @@ function rvg_delete_transients()
 		$total_deleted += count($results);
 		
 		// LOOP THROUGH THE RESULTS
-		for($i=0; $i<count($results); $i++)
+		for($j=0; $j<count($results); $j++)
 		{
-			if(substr($results[$i]->option_name, 0, 19) == '_transient_timeout_')
+			if(substr($results[$j]->option_name, 0, 19) == '_transient_timeout_')
 			{	// _transient_timeout_%
-				$transient = substr($results[$i]->option_name, 19);
+				$transient = substr($results[$j]->option_name, 19);
 				// DELETE THE TRANSIENT
 				delete_transient($transient);					
 			}
 			else
 			{	// _site_transient_timeout_%
-				$transient = substr($results[$i]->option_name, 24);
+				$transient = substr($results[$j]->option_name, 24);
 				// DELETE THE TRANSIENT
 				delete_site_transient($transient);				
 			}			
-		} // for($i=0; $i<count($results); $i++)
+		} // for($j=0; $j<count($results); $j++)
 		
 	} // for($i=0; $i<count($odb_ms_prefixes); $i++)
 	return $total_deleted;

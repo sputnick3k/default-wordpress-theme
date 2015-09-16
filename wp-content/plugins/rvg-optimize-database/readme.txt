@@ -8,8 +8,8 @@ Author URI: http://cagewebdev.com
 Author: CAGE Web Design | Rolf van Gelder, Eindhoven, The Netherlands
 Requires at least: 2.8
 Tested up to: 4.3
-Stable tag: 3.4.7
-Version: 3.4.7
+Stable tag: 3.4.8
+Version: 3.4.8
 License: GPLv2 or later
 
 == Description ==
@@ -86,6 +86,9 @@ http://cagewebdev.com/index.php/wordpress-plugins/
 * If you run the plugin from any of the sites, it will cleanup ALL the sites in the network!
 
 == Changelog ==
+= 3.4.8 [09/14/2015] =
+* BUG FIX: Bug fixed for deleting transients
+
 = 3.4.7 [08/30/2015] =
 * BUG FIX: Transients are now deleted using the delete_transient() / delete_site_transient() functions
 
