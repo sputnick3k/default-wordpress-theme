@@ -405,6 +405,10 @@ This would output:
 
 == Changelog ==
 
+= 2.0.3 =
+* Improvement Fix: Added missing translation strings in English version of po file.
+
+
 = 2.0.0 =
 * Improvement Fix: Added missing translation strings in English version of po file.
 * Bug Fix: Missing $user = $current_user is added in class-wp-user-avatar.php on line 156.
