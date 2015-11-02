@@ -10,7 +10,7 @@
 					schedule_type VARCHAR(100),
 					cron_name VARCHAR(100),
 					PRIMARY KEY (scheduler_id)
-			)DEFAULT CHARSET=utf8 COLLATE utf8_general_ci";
+			)ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE utf8_general_ci";
 			dbDelta($sql);
 		}
 	}
@@ -27,7 +27,7 @@
 					cron_name VARCHAR(100),
 					scheduler_action INTEGER(50),
 					PRIMARY KEY (scheduler_id)
-			)DEFAULT CHARSET=utf8 COLLATE utf8_general_ci";
+			)ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE utf8_general_ci";
 			dbDelta($sql);
 		}
 	}
@@ -48,7 +48,7 @@
 				login_status INTEGER(1) NOT NULL,
 				block_ip INTEGER(1) NOT NULL,
 				PRIMARY KEY (id)
-			)DEFAULT CHARSET=utf8 COLLATE utf8_general_ci";
+			)ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE utf8_general_ci";
 			dbDelta($sql);
 		}
 	}
@@ -62,7 +62,7 @@
 				id INTEGER(10) UNSIGNED NOT NULL AUTO_INCREMENT,
 				block_ip_address VARCHAR(20) NOT NULL,
 				PRIMARY KEY (id)
-			)DEFAULT CHARSET=utf8 COLLATE utf8_general_ci";
+			)ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE utf8_general_ci";
 			dbDelta($sql);
 		}
 	}
@@ -77,7 +77,7 @@
 				block_start_range VARCHAR(20) NOT NULL,
 				block_end_range VARCHAR(20) NOT NULL,
 				PRIMARY KEY (id)
-			)DEFAULT CHARSET=utf8 COLLATE utf8_general_ci";
+			)ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE utf8_general_ci";
 			dbDelta($sql);
 		}
 	}
@@ -95,7 +95,7 @@
 					api_key TEXT NOT NULL,
 					order_id VARCHAR(100) NOT NULL,
 					PRIMARY KEY (licensing_id)
-			)DEFAULT CHARSET=utf8 COLLATE utf8_general_ci";
+			)ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE utf8_general_ci";
 			dbDelta($sql);
 		}
 	}
@@ -110,7 +110,7 @@
 				plugin_settings_key VARCHAR(200) NOT NULL,
 				plugin_settings_value VARCHAR(200) NOT NULL,
 				PRIMARY KEY (plugin_settings_id)
-			)DEFAULT CHARSET=utf8 COLLATE utf8_general_ci";
+			)ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE utf8_general_ci";
 			dbDelta($sql);
 		}
 	}

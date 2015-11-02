@@ -3,7 +3,7 @@
 Plugin Name: WP Super Cache
 Plugin URI: http://wordpress.org/plugins/wp-super-cache/
 Description: Very fast caching plugin for WordPress.
-Version: 1.4.5
+Version: 1.4.6
 Author: Automattic
 Author URI: http://automattic.com/
 License: GPL2+
@@ -1451,10 +1451,8 @@ function wsc_mod_rewrite() {
 		echo '</div>';
 	}
 	// http://allmybrain.com/2007/11/08/making-wp-super-cache-gzip-compression-work/
-	if( !is_file( $cache_path . '.htaccess' ) ) {
-		$gziprules = insert_with_markers( $cache_path . '.htaccess', 'supercache', explode( "\n", $gziprules ) );
-		echo "<h4>" . sprintf( __( 'Gzip encoding rules in %s.htaccess created.', 'wp-super-cache' ), $cache_path ) . "</h4>";
-	}
+	$gziprules = insert_with_markers( $cache_path . '.htaccess', 'supercache', explode( "\n", $gziprules ) );
+	echo "<h4>" . sprintf( __( 'Gzip encoding rules in %s.htaccess created.', 'wp-super-cache' ), $cache_path ) . "</h4>";
 
 	?></fieldset><?php
 }

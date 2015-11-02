@@ -1,7 +1,7 @@
 <?php
 /**
  * @package Optimize Database after Deleting Revisions
- * @version 3.4.8
+ * @version 3.5.1
  */
 /*
 Plugin Name: Optimize Database after Deleting Revisions
@@ -9,11 +9,11 @@ Plugin URI: http://cagewebdev.com/index.php/optimize-database-after-deleting-rev
 Description: Optimizes the Wordpress Database after Cleaning it out
 Author: CAGE Web Design | Rolf van Gelder, Eindhoven, The Netherlands
 Author URI: http://cagewebdev.com
-Version: 3.4.8
+Version: 3.5.1
 */
 
-$odb_version      = '3.4.8';
-$odb_release_date = '09/14/2015';
+$odb_version      = '3.5.1';
+$odb_release_date = '11/01/2015';
 
 // v3.3 - MULTISITE
 $odb_ms_prefixes  = array();
@@ -155,17 +155,6 @@ if($rvg_odb_adminbar == "Y") add_action('wp_before_admin_bar_render', 'rvg_odb_a
 
 /********************************************************************************************
  *
- *	LOAD STYLE SHEETS (v3.1.1)
- *
- ********************************************************************************************/
-function odb_styles()
-{	wp_enqueue_style ('odb', plugin_dir_url(__FILE__) . 'css/style.css',false,'1.0','all');
-} // odb_styles()
-add_action( 'admin_init', 'odb_styles' );
-
-
-/********************************************************************************************
- *
  *	ACTIONS FOR THE SCHEDULER
  *	
  *	http://codex.wordpress.org/Plugin_API/Filter_Reference/cron_schedules
@@ -207,9 +196,9 @@ function rvg_odb_uninstall()
 {
 	global $wpdb, $odb_ms_prefixes;
 	
-	$tables = $wpdb->get_results("SHOW TABLES FROM `".DB_NAME."`", ARRAY_N);
+	$tables = $wpdb->get_results("SHOW FULL TABLES FROM `".DB_NAME."` WHERE table_type = 'BASE TABLE'", ARRAY_N);
 	
-	// DELETE ALL POSSIBLY EXCLUDED TABLES
+	// DELETE ALL POSSIBLY EXCLUDED TABLES FROM THE OPTIONS
 	for ($i=0; $i<count($tables); $i++) rvg_odb_delete_option('rvg_ex_'.$tables[$i][0].'');
 	
 	// DELETE THE OTHER OPTIONS	
@@ -324,7 +313,8 @@ function rvg_odb_settings_page()
 {
 	global $odb_version, $odb_release_date, $wpdb, $table_prefix, $odb_ms_prefixes;
 
-	$tables = $wpdb->get_results("SHOW TABLES FROM `".DB_NAME."`", ARRAY_N);
+	// v3.5.1 - SKIP VIEWS
+	$tables = $wpdb->get_results("SHOW FULL TABLES FROM `".DB_NAME."` WHERE table_type = 'BASE TABLE'", ARRAY_N);
 	
 	// v3.3 - GET NETWORK INFORMATION (MULTISITE)
 	rvg_odb_network_info();
@@ -486,6 +476,8 @@ function rvg_odb_settings_page()
 	if(!$rvg_odb_adminmenu) $rvg_odb_adminmenu = 'N';
 	
 	?>
+<?php /*?>v3.5<?php */?>    
+<link rel="stylesheet" type="text/css" media="all" href="<?php echo plugin_dir_url(__FILE__).'css/style.css'?>" />
 <script type="text/javascript">
 function schedule_changed()
 {	// v3.1.4
@@ -814,6 +806,8 @@ function rvg_optimize_db()
 	$results = $wpdb->get_results($sql);
 	$number_excluded = $results[0]->cnt;
 ?>
+<?php /*?>v3.5<?php */?>
+<link rel="stylesheet" type="text/css" media="all" href="<?php echo plugin_dir_url(__FILE__).'css/style.css'?>" />
 <div class="odb-padding-left">
   <div class="odb-title-bar">
     <h2>
@@ -1621,7 +1615,8 @@ function rvg_delete_spam($results, $display)
  *
  *	DELETE UNUSED TAGS
  *	
- *	v3.2: MULTISITE	
+ *	v3.2:	MULTISITE
+ *	v3.4.9:	BUG FIX ($i should have been $j)
  *
  ********************************************************************************************/
 function rvg_delete_tags()
@@ -1636,14 +1631,14 @@ function rvg_delete_tags()
 		$tags = get_terms('post_tag', array('hide_empty' => 0));
 		for($j=0; $j<count($tags); $j++)
 		{
-			if($tags[$i]->count < 1)
-			{	if(!rvg_delete_tags_is_scheduled($tags[$i]->term_id, $odb_ms_prefixes[$i]))
+			if($tags[$j]->count < 1)
+			{	if(!rvg_delete_tags_is_scheduled($tags[$j]->term_id, $odb_ms_prefixes[$i]))
 				{	// v3.0: TAG NOT USED IN SCHEDULED POSTS: CAN BE DELETED
 					$total_deleted++;
-					wp_delete_term($tags[$i]->term_id, 'post_tag');
+					wp_delete_term($tags[$j]->term_id, 'post_tag');
 				}
 			}			
-		}
+		} // for($j=0; $j<count($tags); $j++)
 	} // for($i=0; $i<count($odb_ms_blogids); $i++)
 	
 	return $total_deleted;
@@ -1862,8 +1857,8 @@ function rvg_optimize_tables($display)
 {
 	global $wpdb;
 
-	# v2.8.2
-	$tables = $wpdb->get_results("SHOW TABLES FROM `".DB_NAME."`", ARRAY_N);
+	# v3.5.1 - SKIP VIEWS
+	$tables = $wpdb->get_results("SHOW FULL TABLES FROM `".DB_NAME."` WHERE table_type = 'BASE TABLE'", ARRAY_N);
 	// print_r($tables);	
 
 	$cnt = 0;
